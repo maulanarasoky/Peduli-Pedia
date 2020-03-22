@@ -1,0 +1,174 @@
+.home-artikel {
+	height: auto;
+	border: 1px solid #e52425;
+	margin-top: 10%;
+	margin-left: 7%;
+	margin-right: 7%;
+	margin-bottom: 7%;
+}
+.home-artikel .side-menu {
+	display: block;
+	background-color: #e52425;
+	width: 25%;
+	height: 567px;
+	padding: 3%;
+}
+.home-artikel .side-menu a {
+	text-decoration: none;
+	color: white;
+	line-height: 200%;
+	font-size: 16pt;
+}
+.home-artikel .side-menu a:hover {
+	color: orange;
+}
+.home-artikel .daftar-artikel {
+	margin-top: -56.6%;
+	margin-left: 35%;
+	height: 600px;
+	width: 61%;
+}
+.home-artikel .daftar-artikel .list-artikel {
+	border : 1px solid #e52425;
+	margin: 2%;
+	height: auto;
+}
+.home-artikel .daftar-artikel .list-artikel img {
+	width: 30%;
+	margin-top: 2%;
+	margin-left: 2%;
+	margin-bottom: 2%;
+}
+.home-artikel .daftar-artikel .list-artikel h3#title {
+	margin-left: 35%;
+	margin-top: -18.5%;
+	font-size: 20pt;
+}
+.home-artikel .daftar-artikel .list-artikel h3#title:hover {
+	color: #e52425;
+}
+.home-artikel .daftar-artikel .list-artikel a {
+	text-decoration: none;
+	color: black;
+}
+.home-artikel .daftar-artikel .list-artikel p#description {
+	margin-left: 35%;
+	margin-top: 2%;
+}
+.home-artikel .daftar-artikel .list-artikel p#date {
+	margin-left: 35%;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	font-style: italic;
+}
+.list-artikel button#donasi {
+	margin-left: 86%;
+	border:1px solid #e52425;
+	border-radius: 10px;
+	background-color: white;
+	color: #e52425;
+	margin-bottom: 1%;
+	padding: 1.5% 4%;
+	outline:none;
+}
+.list-artikel button#donasi:hover {
+	cursor: pointer;
+	background:#e52425;
+	color:white;
+}
+.navbar-logo {
+	position: fixed;
+	margin-top: -9%;
+	z-index: 1;
+	box-shadow: 10px 0 2px 0;
+	background: #fff;
+	width: 100%;
+}
+.navbar-logo .logo {
+	width: 15%;
+	height: 85px;
+	margin-left: 2.5%;
+}
+.navbar-logo .logo a#home img {
+	width: 80%;
+	margin-top: 3%;
+}
+.navbar-logo .user {
+	position: absolute;
+	margin-top: -6%;
+	height: 12%;
+	margin-left: 79%;
+}
+.navbar-logo .user a#user img {
+	margin-top: 1%;
+	width: 25%;
+}
+.navbar-logo .user a#user p#user {
+	position: absolute;
+	margin-left: 30%;
+	color: #e52425;
+	font-size: 14pt;
+	margin-top: -18%;
+}
+.navbar-logo .logo p#user {
+	text-decoration: none;
+	margin-left: 84.5%;
+	position: absolute;
+	z-index: 1;
+	width: 20%;
+	margin-top: 2.7%;
+	margin-right: 0%;
+	font-size: 14pt;
+	color: #e52425;
+	width: 15.5%;
+}
+.footer {
+	margin-top: 5%;
+	background-color: #d9d9d9;
+	height: 170px;
+}
+
+.footer .information .logo img {
+	width: 15%;
+	height: 15%;
+	margin-top: 2%;
+	margin-left: 3%;
+	position: absolute;
+}
+
+.footer .information .info {
+	margin-top: 2%;
+	margin-left: 21%;
+	line-height: 180%;
+	position: absolute;
+}
+
+.footer .information .social {
+	margin-top: 2%;
+	margin-left: 75%;
+	position: absolute;
+}
+.footer .information .social h2 {
+	margin-left: 9%;
+	margin-bottom: 3%;
+}
+.footer .information .social a img {
+	width: 13%;
+	height: 13%;
+	margin-left: 4%;
+	margin-bottom: 2%;
+}
+.footer .garis {
+	width: 99.8%;
+	height: 1%;
+	margin-top: 10%;
+	background-color: #e52425;
+	border:1px solid #e52425;
+	position: absolute;
+}
+.footer .copyright {
+	margin-top: 11.5%;
+	margin-left: 75%;
+	font-weight: bold;
+	position: absolute;
+}

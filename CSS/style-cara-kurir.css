@@ -1,0 +1,150 @@
+@font-face {
+	font-family: newFont;
+	src: url('../Fonts/SF-Compact-Text-Medium.otf');
+}
+* {
+	margin :0;
+	padding: 0;
+	font-family: sans-serif;
+}
+html {
+	scroll-behavior: smooth;
+}
+.navbar-logo {
+	position: fixed;
+	margin-top: -10%;
+	z-index: 1;
+	box-shadow: 10px 0 2px 0;
+	background: #fff;
+	width: 100%;
+}
+.navbar-logo .logo {
+	width: 15%;
+	height: 85px;
+	margin-left: 2.5%;
+}
+.navbar-logo .logo a#home img {
+	width: 80%;
+	margin-top: 3%;
+}
+.navbar-logo .user {
+	position: absolute;
+	margin-top: -6%;
+	height: 12%;
+	margin-left: 79%;
+}
+.navbar-logo .user a#user img {
+	margin-top: 1%;
+	width: 25%;
+}
+.navbar-logo .user a#user p#user {
+	position: absolute;
+	margin-left: 30%;
+	color: #e52425;
+	font-size: 14pt;
+	margin-top: -18%;
+}
+.navbar-logo .logo p#user {
+	text-decoration: none;
+	margin-left: 84.5%;
+	position: absolute;
+	z-index: 1;
+	width: 20%;
+	margin-top: 2.7%;
+	margin-right: 0%;
+	font-size: 14pt;
+	color: #e52425;
+	width: 15.5%;
+}
+
+h1#help {
+	margin-top: 10%;
+	margin-bottom: 1%;
+	margin-left: 7%;
+	font-size: 36pt;
+}
+.cara-kurir {
+	margin-left: 7%;
+	margin-right: 7%;
+	margin-bottom: 7%;
+	height: 650px;
+	border:1px solid #e52425;
+}
+.cara-kurir .side-menu {
+	background-color: #e52425;
+	width: 30%;
+	height: 617px;
+	padding-top: 3%;
+}
+.cara-kurir .side-menu a {
+	color: white;
+	text-decoration: none;
+}
+.cara-kurir .side-menu a p {
+	text-align: justify;
+	line-height: 250%;
+	font-size: 16pt;
+	margin-left: 7%;
+}
+.cara-kurir .side-menu a p:hover {
+	color: orange;
+}
+.cara-kurir .description {
+	margin-top: -57%;
+	margin-left: 33%;
+}
+.cara-kurir .description h1 {
+	margin-bottom: 3%;
+	font-size: 28pt;
+}
+.cara-kurir .description img {
+	width: 6%;
+	height: 6%;
+}
+.cara-kurir .description .step img {
+	float: left;
+	margin-right: 2%;
+}
+.cara-kurir .description .step h3 {
+	float: left;
+	font-size: 20pt;
+	margin-top: 0.5%;
+	color: #e52425;
+	font-family: newFont;
+}
+.cara-kurir .description .step {
+	width: 95%;
+}
+.cara-kurir .description .step p#awal {
+	margin-top: -3%;
+	font-family: newFont;
+}
+.cara-kurir .description .step p {
+	margin-top: 2%;
+	margin-bottom: 2%;
+	line-height: 250%;
+	float: right;
+	text-align: justify;
+	font-family: newFont;
+}
+.nav#cara-kurir .profile a#user img {
+	margin-top: 4%;
+	margin-right: 5%;
+	width: 20%;
+}
+.nav#cara-kurir .profile a#user {
+	float: right;
+	text-decoration: none;
+	font-size: 14pt;
+	color: #e52425;
+	margin-left: 80%;
+}
+.nav#cara-kurir .profile a#user p#user {
+	margin-top: -16%;
+	margin-left: 24%;
+}
+
+.cara-kurir .description p a {
+	text-decoration: none;
+	color: black;
+}

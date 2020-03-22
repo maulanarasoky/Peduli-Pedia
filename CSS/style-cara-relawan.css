@@ -1,0 +1,88 @@
+@font-face {
+	font-family: newFont;
+	src: url('../Fonts/SF-Compact-Text-Medium.otf');
+}
+* {
+	margin :0;
+	padding: 0;
+	font-family: sans-serif;
+}
+html {
+	scroll-behavior: smooth;
+}
+
+h1#help {
+	margin-top: 10%;
+	margin-bottom: 1%;
+	margin-left: 7%;
+	font-size: 36pt;
+}
+.cara-relawan {
+	margin-left: 7%;
+	margin-right: 7%;
+	margin-bottom: 7%;
+	height: 650px;
+	border:1px solid #e52425;
+}
+.cara-relawan .side-menu {
+	background-color: #e52425;
+	width: 30%;
+	height: 617px;
+	padding-top: 3%;
+}
+.cara-relawan .side-menu a {
+	color: white;
+	text-decoration: none;
+}
+.cara-relawan .side-menu a p {
+	text-align: justify;
+	line-height: 250%;
+	font-size: 16pt;
+	margin-left: 7%;
+}
+.cara-relawan .side-menu a p:hover {
+	color: orange;
+}
+.cara-relawan .description {
+	margin-top: -57%;
+	margin-left: 33%;
+}
+.cara-relawan .description h1 {
+	margin-bottom: 3%;
+	font-size: 28pt;
+}
+.cara-relawan .description img {
+	width: 6%;
+	height: 6%;
+}
+.cara-relawan .description .step img {
+	float: left;
+	margin-right: 2%;
+}
+.cara-relawan .description .step h3 {
+	float: left;
+	font-size: 20pt;
+	margin-top: 0.5%;
+	color: #e52425;
+	font-family: newFont;
+}
+.cara-relawan .description .step {
+	width: 95%;
+}
+.cara-relawan .description .step p#awal {
+	margin-top: -3%;
+	font-family: newFont;
+}
+.cara-relawan .description .step p {
+	margin-top: 2%;
+	margin-bottom: 2%;
+	line-height: 250%;
+	float: right;
+	text-align: justify;
+	font-family: newFont;
+}
+
+.cara-relawan .description p a {
+	text-decoration: none;
+	color: black;
+}

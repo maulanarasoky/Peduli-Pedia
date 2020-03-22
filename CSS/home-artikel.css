@@ -1,0 +1,138 @@
+* {
+	margin :0;
+	padding: 0;
+	font-family: sans-serif;
+}
+html {
+	scroll-behavior: smooth;
+}
+.navbar-logo {
+	position: fixed;
+	margin-top: -10%;
+	z-index: 1;
+	box-shadow: 10px 0 2px 0;
+	background: #fff;
+	width: 100%;
+}
+.navbar-logo .logo {
+	width: 15%;
+	height: 85px;
+	margin-left: 2.5%;
+}
+.navbar-logo .logo a#home img {
+	width: 80%;
+	margin-top: 3%;
+}
+.navbar-logo .user {
+	position: absolute;
+	margin-top: -6%;
+	height: 12%;
+	margin-left: 79%;
+}
+.navbar-logo .user a#user img {
+	margin-top: 1%;
+	width: 25%;
+}
+.navbar-logo .user a#user p#user {
+	position: absolute;
+	margin-left: 30%;
+	color: #e52425;
+	font-size: 14pt;
+	margin-top: -18%;
+}
+.navbar-logo .logo p#user {
+	text-decoration: none;
+	margin-left: 84.5%;
+	position: absolute;
+	z-index: 1;
+	width: 20%;
+	margin-top: 2.7%;
+	margin-right: 0%;
+	font-size: 14pt;
+	color: #e52425;
+	width: 15.5%;
+}
+
+.home-artikel {
+	height: auto;
+	border: 1px solid #e52425;
+	margin-top: 10%;
+	margin-left: 7%;
+	margin-right: 7%;
+	margin-bottom: 7%;
+}
+.home-artikel .side-menu {
+	display: block;
+	background-color: #e52425;
+	width: 25%;
+	height: 567px;
+	padding: 3%;
+}
+.home-artikel .side-menu a {
+	text-decoration: none;
+	color: white;
+	line-height: 200%;
+	font-size: 16pt;
+}
+.home-artikel .side-menu a:hover {
+	color: orange;
+}
+.home-artikel .daftar-artikel {
+	margin-top: -56.6%;
+	margin-left: 35%;
+	height: 600px;
+	width: 61%;
+	padding-top: 1.5%;
+}
+.home-artikel .daftar-artikel .list-artikel {
+	border : 1px solid #e52425;
+	margin: .5%;
+	height: auto;
+	padding-bottom: 7%;
+	margin-bottom: 7%;
+}
+.home-artikel .daftar-artikel .list-artikel img {
+	width: 30%;
+	margin-top: 2%;
+	margin-left: 2%;
+	margin-bottom: 2%;
+}
+.home-artikel .daftar-artikel .list-artikel h3#title {
+	margin-left: 35%;
+	margin-top: -17.5%;
+	font-size: 14pt;
+}
+.home-artikel .daftar-artikel .list-artikel a {
+	text-decoration: none;
+	color: black;
+}
+.home-artikel .daftar-artikel .list-artikel p#description {
+	margin-left: 35%;
+	margin-top: 2%;
+}
+.home-artikel .daftar-artikel .list-artikel p#date {
+	font-style: italic;
+	color: gray;
+}
+.home-artikel .daftar-artikel .list-artikel p#date {
+	margin-left: 35%;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	font-style: italic;
+}
+.home-artikel .daftar-artikel .list-artikel button#readMore {
+	margin-right: 3%;
+	margin-top: -2%;
+	padding: 1.5% 4%;
+	border:1px solid #e52425;
+	background: white;
+	color:#e52425;
+	cursor: pointer;
+	float: right;
+	outline: none;
+}
+.home-artikel .daftar-artikel .list-artikel button#readMore:hover {
+	border:1px solid #fff;
+	color:#fff;
+	background: #e52425;
+}

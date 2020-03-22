@@ -1,0 +1,10 @@
+@media only screen and (width:768px) {
+    .cara-donasi .description {
+        margin-top: -88%;
+    }
+}
+@media only screen and (width:1366px) {
+    .cara-donasi .description {
+        margin-top: -80%;
+    }
+}

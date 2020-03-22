@@ -1,0 +1,10 @@
+@media only screen and (width:768px) {
+    .cara-relawan .description {
+        margin-top: -88%;
+    }
+}
+@media only screen and (width:1366px) {
+    .cara-relawan .description {
+        margin-top: -53%;
+    }
+}

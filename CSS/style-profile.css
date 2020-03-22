@@ -1,0 +1,256 @@
+* {
+    margin :0;
+    padding: 0;
+    font-family: sans-serif;
+}
+html {
+    scroll-behavior: smooth;
+}
+.navbar-logo {
+	position: fixed;
+	margin-top: -10%;
+	z-index: 1;
+	box-shadow: 10px 0 2px 0;
+	background: #fff;
+	width: 100%;
+}
+.navbar-logo .logo {
+	width: 15%;
+	height: 85px;
+	margin-left: 2.5%;
+}
+.navbar-logo .logo a#home img {
+	width: 80%;
+	margin-top: 3%;
+}
+.navbar-logo .user {
+	position: absolute;
+	margin-top: -6%;
+	height: 12%;
+	margin-left: 79%;
+}
+.navbar-logo .user a#user img {
+	margin-top: 1%;
+	width: 25%;
+}
+.navbar-logo .user a#user p#user {
+	position: absolute;
+	margin-left: 30%;
+	color: #e52425;
+	font-size: 14pt;
+	margin-top: -18%;
+}
+.navbar-logo .logo p#user {
+	text-decoration: none;
+	margin-left: 84.5%;
+	position: absolute;
+	z-index: 1;
+	width: 20%;
+	margin-top: 2.7%;
+	margin-right: 0%;
+	font-size: 14pt;
+	color: #e52425;
+	width: 15.5%;
+}
+.footer#profile {
+    margin-top: 5%;
+    background-color: #d9d9d9;
+    height: 170px;
+}
+
+.footer#profile .information .logo img {
+    width: 15%;
+    height: 15%;
+    margin-top: 2%;
+    margin-left: 3%;
+    position: absolute;
+}
+
+.footer#profile .information .info {
+    margin-top: 2%;
+    margin-left: 21%;
+    line-height: 180%;
+    position: absolute;
+}
+
+.footer#profile .information .social {
+    margin-top: 2%;
+    margin-left: 75%;
+    position: absolute;
+}
+.footer#profile .information .social h2 {
+    margin-left: 9%;
+    margin-bottom: 3%;
+}
+.footer#profile .information .social a img {
+    width: 13%;
+    height: 13%;
+    margin-left: 4%;
+    margin-bottom: 2%;
+}
+.footer#profile .garis {
+    width: 99.8%;
+    height: 1%;
+    margin-top: 10%;
+    background-color: #e52425;
+    border:1px solid #e52425;
+    position: absolute;
+}
+.footer#profile .copyright {
+    margin-top: 11.5%;
+    margin-left: 75%;
+    font-weight: bold;
+    position: absolute;
+}
+
+.form-tambah {
+    color: gray;
+    background: rgb(228, 228, 228);
+    margin: -35% 0% 1% 30%;
+    padding: 1% 5% 0% 5%;
+    width: 30%;
+    height: 280px;
+    position: absolute;
+    display: none;
+    overflow: scroll;
+}
+
+.form-tambah .title p#title {
+    margin-top: 1%;
+    margin-bottom: 3%;
+}
+
+.form-tambah .title {
+    border-bottom: 1px solid gray;
+    margin-bottom: 5%;
+}
+
+.form-tambah form table tr td input{
+    padding: 3% 5%;
+    margin-bottom: 7%;
+}
+.form-tambah form table tr td{
+    width: 10%;
+}
+
+.form-tambah form table tr td button#simpan {
+    margin-left: 50%;
+    position: absolute;
+    color: white;
+    border:1px solid #e52425;
+    border-radius: 5px;
+    background-color: #e52425;
+	padding: 2.5% 6%;
+	cursor: pointer;
+}
+.form-tambah form table tr td button#simpan:hover {
+	background: white;
+	color: #e52425;
+}
+
+.whole-cover {
+    margin-top: -92%;
+    background-color: black;
+    width: 100%;
+    height: 225.5%;
+    display: none;
+    position: absolute;
+    z-index: 0;
+    opacity: .8;
+}
+.profilee {
+	margin-top: 10%;
+	margin-left: 5%;
+	background-color: #ebebeb;
+	width: 90%;
+	height: 450px;
+	padding-top: 3%;
+}
+.profilee .photo {
+	margin-left: 5%;
+	border: 1px solid #e52425;
+	background-color: #d7d7d7;
+	width: 25%;
+	height: 70%;
+	border-radius: 10px;
+}
+.profilee .photo img {
+	margin-top: 10%;
+	margin-left: 25%;
+	width: 50%;
+/*	animation: photo infinite 20s linear;*/
+}
+/*@keyframes photo {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
+	}
+}*/
+.profilee .photo p#name {
+	margin-top: 5%;
+	font-size: 16pt;
+	text-align: center;
+}
+.profilee .photo p#poin {
+	font-size: 16pt;
+	text-align: center;
+}
+.profilee .photo p#description {
+	margin-top: 10%;
+	text-align: center;
+	font-size: 18pt;
+	font-weight: bold;
+}
+.profilee .description {
+	margin-top: -28%;
+	margin-left: 40%;
+	width: 50%;
+	height: 56%;
+	padding: 3%;
+	border: 1px solid #e52425;
+	background-color: #d7d7d7;
+	border-radius: 10px;
+}
+.profilee .description p {
+	line-height: 300%;
+}
+.profilee .description button#change {
+	float: right;
+	margin-right: 0%;
+	background-color: #e52425;
+	border:1px solid #e52425;
+	border-radius: 10px;
+	color: white;
+	padding: 1% 3%;
+	width: 20%;
+	margin-top: 10%;
+	outline: none;
+	cursor: pointer;
+}
+.profilee .description button#change:hover {
+	background-color: white;
+	border:1px solid #e52425;
+	color: #e52425;
+}
+/* .profilee .photo img:hover {
+	cursor: pointer;
+	animation: photo infinite 20s linear;
+}
+@keyframes photo {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
+	}
+} */
+
+img#coba {
+	margin:10% 23% 5% 23%;
+	width: 150px;
+	height: 150px;
+	object-fit: cover;
+	border-radius: 50%;
+}

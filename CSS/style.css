@@ -1,0 +1,1439 @@
+@font-face {
+	font-family: newFont;
+	src: url('../Fonts/SF-Compact-Text-Medium.otf');
+}
+* {
+	margin :0;
+	padding: 0;
+	font-family: sans-serif;
+}
+html {
+	scroll-behavior: smooth;
+}
+::-webkit-scrollbar {
+	width: 10px;
+  }
+  /* Track */
+::-webkit-scrollbar-track {
+	background: #f1f1f1; 
+}
+  /* Handle */
+::-webkit-scrollbar-thumb {
+	background: #03a9f4; 
+}
+  /* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+	background: #fff;
+	cursor: pointer;
+	border:1px solid #03a9f4; 
+}
+::-webkit-scrollbar-button {
+	  background: #03a9f4;
+}
+.navbar {
+	position: sticky;
+	position: -webkit-sticky;
+	top: 0;
+	z-index: 2;
+	box-shadow: 0 0 3px 0;
+}
+.merah {
+	background-color: #fff;
+	border-bottom: .1px solid rgb(214, 214, 214);
+	width: 100%;
+	height: 30px;
+}
+.merah ul {
+	list-style: none;
+	overflow: hidden;
+	padding-left: 20px;
+}
+
+.merah ul li {
+	margin-top: .5%;
+	float: right;
+	margin-right: 2%;
+	margin-left: 2.5%;
+}
+.merah ul li a {
+	text-decoration: none;
+	color: black;
+	font-size: 10pt;
+}
+.merah ul li a:hover {
+	color : #e52425;
+}
+.logo {
+	background-color: white;
+	width: 100%;
+	height: 57px;
+}
+.logo a img {
+  	top: 42%;
+	left: 3%;
+	width: 13%;
+	height: 60%;
+	position: absolute;
+}
+.logo button#masuk {
+	margin-left: 86%;
+	margin-top: 1.2%;
+	padding: .5% 1%;
+	font-size: 10pt;
+	border: none;
+	background: white;
+	color:#e52425;
+	outline:none;
+	cursor: pointer;
+}
+.logo button#daftar {
+	margin-left: 1%;
+	padding: .5% 1%;
+	font-size: 10pt;
+	border:2px solid #e52425;
+	color: #e52425;
+	border-radius: 5px;
+	background: white;
+	outline:none;
+	cursor: pointer;
+}
+.pilih-login {
+	margin-left: 35%;
+	border-radius: 15px;
+	width: 30%;
+	height: 70%;
+	background-color: white;
+	display: block;
+	position: fixed;
+	z-index: 3;
+	display :none;
+}
+.pilih-login .logo {
+	margin-top: 5%;
+	margin-left: 28%;
+	background: none;
+}
+.pilih-login .title {
+	text-align: center;
+	color: #03a9f4;
+	font-size: 14pt;
+}
+.pilih-login .logo img {
+	width: 50%;
+	height: 100%;
+}
+.pilih-login .pilihan {
+	margin-top: 5%;
+	width: 88.5%;
+	height:auto;
+	margin-left: 6%;
+}
+.pilih-login .pilihan button{
+	margin-bottom: 5%;
+	border:2px solid #03a9f4;
+	color:#e52425;
+	background: white;
+	padding-top:6%;
+	padding-bottom:6%;
+	width: 100%;
+	border-radius: 10px;
+	font-size: 12pt;
+}
+.pilih-login .pilihan button:hover img {
+	animation: photo infinite 20s linear;
+}
+@keyframes photo {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
+	}
+}
+.pilih-login .pilihan button img {
+	width: 15%;
+	float: left;
+	position: absolute;
+	margin-top: -1.5%;
+	margin-left: -33%;
+}
+.pilih-login .pilihan button:hover {
+	cursor: pointer;
+	box-shadow:0 0 10px 0 blue;
+}
+.pilih-daftar {
+	margin-left: 35%;
+	border-radius: 15px;
+	width: 30%;
+	height: 70%;
+	background-color: white;
+	display: block;
+	position: fixed;
+	z-index: 3;
+	display :none;
+}
+.pilih-daftar .logo {
+	margin-top: 5%;
+	margin-left: 28%;
+	background: none;
+}
+.pilih-daftar .title {
+	text-align: center;
+	color: #e52425;
+	font-size: 14pt;
+}
+.pilih-daftar .logo img {
+	width: 50%;
+	height: 100%;
+}
+.pilih-daftar .pilihan {
+	margin-top: 5%;
+	width: 88.5%;
+	height:auto;
+	margin-left: 6%;
+}
+.pilih-daftar .pilihan button{
+	margin-bottom: 5%;
+	border:2px solid #e52425;
+	color:#e52425;
+	background: white;
+	padding-top:6%;
+	padding-bottom:6%;
+	width: 100%;
+	border-radius: 10px;
+	font-size: 12pt;
+}
+.pilih-daftar .pilihan button:hover img {
+	animation: photo infinite 20s linear;
+}
+@keyframes photo {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
+	}
+}
+.pilih-daftar .pilihan button img {
+	width: 15%;
+	float: left;
+	position: absolute;
+	margin-top: -1.5%;
+	margin-left: -33%;
+}
+.pilih-daftar .pilihan button:hover {
+	cursor: pointer;
+	box-shadow:0 0 10px 0 blue;
+}
+.cover-slideshow {
+	margin-top: -.1%;
+	background-color: white;
+	width: 100%;
+	height: 84.5%;
+	position: absolute;
+	z-index: 1;
+	opacity: .5;
+}
+.cover-slideshowTwo {
+	background-color: black;
+	margin-top: 82.5%;
+	width: 100%;
+	height: 95%;
+	position: absolute;
+	z-index: 1;
+	opacity: .8;
+}
+.peduli-pedia img {
+	width: 60%;
+	height: 48%;
+	position: absolute;
+	z-index: 1;
+	margin-top: 2.5%;
+	margin-left: 22.5%;
+}
+.peduli-pedia p#more-info:hover a {
+	background-color: #e52425;
+	color:white;
+}
+.peduli-pedia p#more-info a {
+	text-decoration: none;
+	padding: 2% 7%;
+	background-color: white;
+	border-radius: 30px;
+	font-size: 18pt;
+	position: absolute;
+	z-index: 1;
+	color: #e52425;
+	margin-top: 27%;
+	margin-left: 32.3%;
+	font-weight: bold;
+}
+.mySlides {
+	display: none;
+	margin-top: 4px;
+}
+
+/* Slideshow container */
+.slideshow-container {
+	margin-top: 1%;
+	margin-left: 2%;
+	padding-top: 80px;
+ 	width: 76%;
+  	position: relative;
+  	
+}
+.slideshow-container .fade img {
+	width: 127%;
+	margin-top: -8.5%;
+	height: 485px;
+	vertical-align: middle;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+/*.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbeeeb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}*/
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 20s;
+  animation-name: fade;
+  animation-duration: 20s;
+}
+.titik {
+	text-align: center;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .9} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .9} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+.peduliPedia-info img {
+	margin-top: 1.5%;
+	width: 100%;
+	height: 580px;
+}
+.peduliPedia-info p#up {
+	font-size: 18pt;
+	z-index: 1;
+	color: white;
+	margin-top: -40%;
+	margin-left: 40%;
+	position: absolute;
+}
+.peduliPedia-info p#down {
+	font-size: 18pt;
+	z-index: 1;
+	color: white;
+	margin-top: -35%;
+	margin-left: 45.5%;
+	position: absolute;
+}
+.peduliPedia-info .option-jobdesk {
+	position: absolute;
+	z-index: 1;
+	margin-top: -29%;
+	margin-left: 45%;
+}
+.peduliPedia-info .option-jobdesk img {
+	width: 18%;
+	height: 18%;
+	margin-right: 14.5%;
+}
+#myBtn {
+	z-index: 2;
+  	display: none;
+  	position: fixed;
+  	bottom: 20px;
+  	right: 30px;
+  	z-index: 99;
+  	font-size: 18px;
+  	border: none;
+  	outline: none;
+  	background-color: red;
+  	color: white;
+  	cursor: pointer;
+  	padding: 15px;
+  	border-radius: 4px;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
+.donatur {
+	margin-top: 1%;
+	margin-left: 1%;
+	width: 97.5%;
+}
+.donatur img {
+	margin-top:-.5%;
+	margin-left: 5%; 
+	width: 90%;
+	height: 580px;
+}
+.donatur .description {
+	width: 38%;
+	height: 68%;
+	margin-top: -30%;
+	margin-left: 52%;
+	position: absolute;
+	border-radius: 20px;
+	z-index: 1;
+}
+.donatur .description .garis {
+	margin-top: 20%;
+	margin-left: 15%;
+	background-color: black;
+	width: 75%;
+	border:1px solid black;
+}
+.donatur .description p#title {
+	font-size: 26pt;
+	position: absolute;
+	margin-top: 7%;
+	margin-left: 35%;
+	z-index: 2;
+}
+.donatur .description p#description {
+	letter-spacing: 2px;
+	text-align: center;
+	font-size: 13pt;
+	margin-top: 20%;
+	line-height: 350%;
+}
+.relawan {
+	margin-top: 1%;
+	margin-left: 1%;
+	width: 97.5%;
+}
+.relawan img {
+	margin-top:-.5%; 
+	margin-left: 5%;
+	width: 90%;
+	height: 580px;
+}
+.relawan .description {
+	width: 38%;
+	height: 68%;
+	margin-top: -30%;
+	margin-left: 52%;
+	position: absolute;
+	border-radius: 20px;
+	z-index: 1;
+}
+.relawan .description .garis {
+	margin-top: 20%;
+	margin-left: 15%;
+	background-color: black;
+	width: 75%;
+	border:1px solid black;
+}
+.relawan .description p#title {
+	font-size: 26pt;
+	position: absolute;
+	margin-top: 7%;
+	margin-left: 35%;
+	z-index: 2;
+}
+.relawan .description p#description {
+	letter-spacing: 2px;
+	text-align: center;
+	font-size: 13pt;
+	margin-top: 20%;
+	line-height: 350%;
+}
+.kurir {
+	margin-top: 1%;
+	margin-left: 1%;
+	width: 97.5%;
+}
+.kurir img {
+	margin-top:-.5%; 
+	margin-left: 5%;
+	width: 90%;
+	height: 580px;
+}
+.kurir .description {
+	width: 38%;
+	height: 68%;
+	margin-top: -30%;
+	margin-left: 52%;
+	position: absolute;
+	border-radius: 20px;
+	z-index: 1;
+}
+.kurir .description .garis {
+	margin-top: 20%;
+	margin-left: 13%;
+	background-color: black;
+	width: 75%;
+	border:1px solid black;
+}
+.kurir .description p#title {
+	font-size: 26pt;
+	position: absolute;
+	margin-top: 7%;
+	margin-left: 35%;
+	z-index: 2;
+}
+.kurir .description p#description {
+	letter-spacing: 2px;
+	text-align: center;
+	font-size: 13pt;
+	margin-top: 20%;
+	line-height: 350%;
+}
+.best {
+	border :5px solid #e52425;
+	border-radius: 20px;
+	height: 480px;
+	margin-top: 1.5%;
+	margin-left: 8.9%;
+	width: 78%;
+	padding: 2% 2% 7% 2%;
+}
+.best .title {
+	margin-left: 30%;
+	width: 43%;
+	border-bottom: 1px solid #03a9f4;
+	padding-bottom: 2%;
+}
+.best .title h1 {
+	text-align: center;
+	font-family: newFont;
+}
+.grade {
+	margin-top: 13%;
+	margin-left: 2%;
+	width: 20%;
+	height: auto;
+}
+img#grade {
+	width: 2.5%;
+	margin-top: -.3%;
+	position: absolute;
+}
+.grade button {
+	background-color: #e52425;
+	border:1px solid #e52425;
+	box-shadow: .5px .5px .5px .5px;
+	margin-left: 10%;
+	width: 50%;
+	height: 10%;
+	display: block;
+	margin-top: 20%;
+	color: white;
+	border-radius: 30px;
+	width: 250px;
+	height: 60px;
+	font-weight: bold;
+	font-size: 14pt;
+	outline: none;
+	cursor: pointer;
+}
+.grade button#donatur {
+	margin-top: 50%;
+}
+.grade button:hover {
+	background-color: white;
+	border:1px solid #e52425;
+	color: #e52425;
+}
+.grade-donatur {
+	margin-top: -36.3%;
+	margin-left: 35%;
+	width: 60%;
+	background-color: #e52425;
+	border-radius: 15px;
+	padding: 2%;
+}
+.grade-donatur table {
+	width: 100%;
+	height: 425px;
+}
+.grade-donatur table {
+	border-color: white;
+	padding: 10px;
+}
+.grade-donatur table tr td {
+	padding: 1.3%;
+	font-size: 14pt;
+	letter-spacing: 2px;
+	color: white;
+}
+.best table, tr, td {
+	border:1px solid white;
+	border-collapse: collapse;
+}
+.grade-donatur table tr td#donatur {
+	text-align: center;
+	font-size: 18pt;
+}
+.grade-donatur table tr td#poin {
+	text-align: center;
+}
+.grade button.active {
+	background-color: white;
+	border:1px solid #e52425;
+	color: #e52425;
+}
+.grade-relawan {
+	margin-top: -36.3%;
+	margin-left: 35%;
+	width: 60%;
+	background-color: #e52425;
+	border-radius: 15px;
+	padding: 2%;
+	display: none;
+}
+.grade-relawan table {
+	width: 100%;
+	height: 425px;
+}
+.grade-relawan table {
+	border-color: white;
+	padding: 10px;
+}
+.grade-relawan table tr td {
+	padding: 1.3%;
+	font-size: 14pt;
+	letter-spacing: 2px;
+	color: white;
+}
+.grade-relawan table tr td#relawan {
+	text-align: center;
+	font-size: 18pt;
+}
+.grade-relawan table tr td#poin {
+	text-align: center;
+}
+.grade-kurir {
+	margin-top: -36.3%;
+	margin-left: 35%;
+	width: 60%;
+	background-color: #e52425;
+	border-radius: 15px;
+	padding: 2%;
+	display: none;
+}
+.grade-kurir table {
+	width: 100%;
+	height: 425px;
+}
+.grade-kurir table {
+	border-color: white;
+	padding: 10px;
+}
+.grade-kurir table tr td {
+	padding: 1.3%;
+	font-size: 14pt;
+	letter-spacing: 2px;
+	color: white;
+}
+.grade-kurir table tr td#kurir {
+	text-align: center;
+	font-size: 18pt;
+}
+.grade-kurir table tr td#poin {
+	text-align: center;
+}
+
+/*masuk*/
+.masuk {
+	background-color: #d9d9d9;
+	margin-top: -.1%;
+	width: 100%;
+	height: 9%;
+	z-index: 2;
+	position: fixed;
+	display: none;
+}
+.masuk ul {
+	list-style: none;
+	overflow: hidden;
+	padding-left: 20px;
+}
+.masuk ul li#donatur {
+	margin-left: 28%;
+}
+.masuk ul li {
+	display: inline-block;
+	margin-top: 1.2%;
+	margin-right: 8%;
+	margin-left: 2.5%;
+}
+.masuk ul li a {
+	text-decoration: none;
+	color: #e52425;
+	font-size: 130%;
+}
+/*Daftar*/
+.daftar {
+	background-color: #d9d9d9;
+	margin-top: -.1%;
+	width: 100%;
+	height: 9%;
+	z-index: 2;
+	position: fixed;
+	display: none;
+}
+.daftar ul {
+	list-style: none;
+	overflow: hidden;
+	padding-left: 20px;
+}
+.daftar ul li#donatur {
+	margin-left: 28%;
+}
+.daftar ul li {
+	display: inline-block;
+	margin-top: 1.2%;
+	margin-right: 8%;
+	margin-left: 2.5%;
+}
+.daftar ul li a {
+	text-decoration: none;
+	color: #e52425;
+	font-size: 130%;
+}
+/*Login donatur*/
+.whole-cover {
+	width: 100%;
+	height: 100%;
+	background-color: black;
+	position: fixed;
+	z-index: 3;
+	opacity: .7;
+	display: none;
+}
+.login-donatur {
+	position: fixed;
+	top:50%;
+	left: 50%;
+	width: 400px;
+	padding: 40px;
+	transform: translate(-50%, -50%);
+	background-color: white;
+	box-sizing: border-box;
+	border-radius: 10px;
+	z-index: 3;
+	display :none;
+}
+.login-donatur .logo {
+	margin-left: 28%;
+}
+.login-donatur .logo img {
+	width: 70%;
+	height: 30%;
+}
+.login-donatur .title h2 {
+	text-align: center;
+	margin:0 0 30px;
+	padding: 0;
+	color: #03a9f4;
+}
+.login-donatur .form {
+	margin-top: 10%;
+	margin-left: 8%;
+	width: 85%;
+}
+.login-donatur .inputBox {
+	position: relative;
+}
+.login-donatur .inputBox input {
+	width: 100%;
+	padding: 10px 0;
+	font-size: 16px;
+	color: gray;
+	margin-bottom: 30px;
+	border:none;
+	border-bottom: 1px solid #03a9f4;
+	outline: none;
+	background: transparent;
+}
+.login-donatur .inputBox label {
+	position: absolute;
+	top:0;
+	left:0;
+	padding: 10px 0;
+	font-size: 16px;
+	pointer-events: none;
+	color: #03a9f4;
+	transition: .5s;
+}
+.login-donatur .inputBox input:focus {
+	border-bottom: 1px solid #e52425;
+}
+.login-donatur .inputBox input:focus ~ label, .login-donatur .inputBox input:valid ~ label {
+	top:-18px;
+	left: 0;
+	color: #e52425;
+	font-size: 12px;
+}
+.login-donatur input[type="submit"] {
+	background: transparent;
+	border:none;
+	outline: none;
+	color:#fff;
+	background:#03a9f4;
+	padding: 10px 20px;
+	cursor: pointer;
+	border-radius: 5px;
+}
+
+/*login relawan*/
+.login-relawan {
+	position: fixed;
+	top:50%;
+	left: 50%;
+	width: 400px;
+	padding: 40px;
+	transform: translate(-50%, -50%);
+	background-color: white;
+	box-sizing: border-box;
+	border-radius: 10px;
+	z-index: 3;
+	display :none;
+}
+.login-relawan .logo {
+	margin-left: 28%;
+}
+.login-relawan .logo img {
+	width: 70%;
+	height: 30%;
+}
+.login-relawan .title h2 {
+	text-align: center;
+	margin:0 0 30px;
+	padding: 0;
+	color: #03a9f4;
+}
+.login-relawan .form {
+	margin-top: 10%;
+	margin-left: 8%;
+	width: 85%;
+}
+.login-relawan .inputBox {
+	position: relative;
+}
+.login-relawan .inputBox input {
+	width: 100%;
+	padding: 10px 0;
+	font-size: 16px;
+	color: gray;
+	margin-bottom: 30px;
+	border:none;
+	border-bottom: 1px solid #03a9f4;
+	outline: none;
+	background: transparent;
+}
+.login-relawan .inputBox label {
+	position: absolute;
+	top:0;
+	left:0;
+	padding: 10px 0;
+	font-size: 16px;
+	color: #03a9f4;
+	pointer-events: none;
+	transition: .5s;
+}
+.login-relawan .inputBox input:focus {
+	border-bottom: 1px solid #e52425;
+}
+.login-relawan .inputBox input:focus ~ label, .login-relawan .inputBox input:valid ~ label {
+	top:-18px;
+	left: 0;
+	color: #e52425;
+	font-size: 12px;
+}
+.login-relawan input[type="submit"] {
+	background: transparent;
+	border:none;
+	outline: none;
+	color:#fff;
+	background:#03a9f4;
+	padding: 10px 20px;
+	cursor: pointer;
+	border-radius: 5px;
+}
+
+
+/*login kurir*/
+.login-kurir {
+	position: fixed;
+	top:50%;
+	left: 50%;
+	width: 400px;
+	padding: 40px;
+	transform: translate(-50%, -50%);
+	background-color: white;
+	box-sizing: border-box;
+	border-radius: 10px;
+	z-index: 3;
+	display :none;
+}
+.login-kurir .logo {
+	margin-left: 28%;
+}
+.login-kurir .logo img {
+	width: 70%;
+	height: 30%;
+}
+.login-kurir .title h2 {
+	text-align: center;
+	margin:0 0 30px;
+	padding: 0;
+	color: #03a9f4;
+}
+.login-kurir .form {
+	margin-top: 10%;
+	margin-left: 8%;
+	width: 85%;
+}
+.login-kurir .inputBox {
+	position: relative;
+}
+.login-kurir .inputBox input {
+	width: 100%;
+	padding: 10px 0;
+	font-size: 16px;
+	color: gray;
+	margin-bottom: 30px;
+	border:none;
+	border-bottom: 1px solid #03a9f4;
+	outline: none;
+	background: transparent;
+}
+.login-kurir .inputBox label {
+	position: absolute;
+	top:0;
+	left:0;
+	padding: 10px 0;
+	font-size: 16px;
+	color:#03a9f4;
+	pointer-events: none;
+	transition: .5s;
+}
+.login-kurir .inputBox input:focus {
+	border-bottom:1px solid #e52425;
+}
+.login-kurir .inputBox input:focus ~ label, .login-kurir .inputBox input:valid ~ label {
+	top:-18px;
+	left: 0;
+	color: #e52425;
+	font-size: 12px;
+}
+.login-kurir input[type="submit"] {
+	background: transparent;
+	border:none;
+	outline: none;
+	color:#fff;
+	background:#03a9f4;
+	padding: 10px 20px;
+	cursor: pointer;
+	border-radius: 5px;
+}
+
+
+/*DAFTAR-DONATUR.HTML*/
+.daftar-donatur .logo {
+	margin-left: 7%;
+	position: absolute;
+	z-index: -1;
+}
+.daftar-donatur .logo img {
+	border-radius: 10px;
+	width: 45%;
+	height: 583px;
+}
+.daftar-donatur .form {
+	background-color: #f5f5f5;
+	border:1px solid #bbbbbb;
+	border-radius: 10px;
+	width: 40%;
+	padding: 1% 0 2% 0;
+	height: auto;
+	margin-top: 3%;
+	margin-bottom: 3%;
+	margin-left: 53%;
+}
+.daftar-donatur .form table {
+	margin-left: 3%;
+}
+.daftar-donatur .form td {
+	padding-top: 9%;
+	border: none;
+}
+.daftar-donatur .form td input{
+	border-radius: 10px;
+	border:1px solid #bbbbbb;
+	margin-left: 5%;
+	width: 275%;
+	height: 45px;
+	outline: none;
+}
+.daftar-donatur .form td input[type=submit] {
+	background-color: #e52425;
+	border: 1px solid #e52425;
+	color: white;
+	margin-left: 63%;
+	width: 170%;
+	outline: none;
+	cursor: pointer;
+}
+.daftar-donatur .form td input[type=submit]:hover {
+	background:white;
+	color:#e52425;
+}
+.daftar-donatur .form p {
+	margin-top: 3%;
+	text-align: center;
+}
+
+/*DAFTAR-RELAWAN.HTML*/
+.daftar-relawan .logo {
+	margin-left: 7%;
+	position: absolute;
+	z-index: -1;
+}
+.daftar-relawan .logo img {
+	border-radius: 10px;
+	width: 45%;
+	height: 575px;
+}
+.daftar-relawan .form {
+	background-color: #f5f5f5;
+	border:1px solid #bbbbbb;
+	border-radius: 10px;
+	padding-bottom: 2%;
+	width: 40%;
+	height: auto;
+	margin-top: 3%;
+	margin-bottom: 3%;
+	margin-left: 53%;
+}
+.daftar-relawan .form table {
+	margin-left: 3%;
+}
+.daftar-relawan .form td {
+	padding-top: 9%;
+	border: none;
+}
+.daftar-relawan .form td input{
+	border-radius: 10px;
+	border:1px solid #bbbbbb;
+	margin-left: 5%;
+	width: 275%;
+	height: 45px;
+	outline: none;
+}
+.daftar-relawan .form td input[type=submit] {
+	background-color: #e52425;
+	border: 1px solid #e52425;
+	color: white;
+	margin-left: 63%;
+	width: 170%;
+	cursor: pointer;
+}
+.daftar-relawan .form td input[type=submit]:hover {
+	background: white;
+	color: #e52425;
+}
+.daftar-relawan .form p {
+	margin-top: 3%;
+	text-align: center;
+}
+
+/*DAFTAR-KURIR.HTML*/
+.daftar-kurir .logo {
+	margin-left: 7%;
+	position: absolute;
+	z-index: -1;
+}
+.daftar-kurir .logo img {
+	border-radius: 10px;
+	width: 45%;
+	height: 575px;
+}
+.daftar-kurir .form {
+	background-color: #f5f5f5;
+	border:1px solid #bbbbbb;
+	border-radius: 10px;
+	padding-bottom: 2%;
+	width: 40%;
+	height: auto;
+	margin-top: 3%;
+	margin-bottom: 3%;
+	margin-left: 53%;
+}
+.daftar-kurir .form table {
+	margin-left: 3%;
+}
+.daftar-kurir .form td {
+	padding-top: 9%;
+	border: none;
+}
+.daftar-kurir .form td input{
+	border-radius: 10px;
+	border:1px solid #bbbbbb;
+	margin-left: 5%;
+	width: 275%;
+	height: 45px;
+	outline: none;
+}
+.daftar-kurir .form td input[type=submit] {
+	background-color: #e52425;
+	border: 1px solid #e52425;
+	color: white;
+	margin-left: 63%;
+	width: 170%;
+	cursor: pointer;
+}
+.daftar-kurir .form td input[type=submit]:hover {
+	background: white;
+	color: #e52425;
+}
+.daftar-kurir .form p {
+	margin-top: 3%;
+	text-align: center;
+}
+
+.footer-artikel .information .logo img {
+	width: 15%;
+	height: 15%;
+	margin-top: 2%;
+	margin-left: 3%;
+	position: absolute;
+}
+
+.footer-artikel .information .info {
+	margin-top: 2%;
+	margin-left: 21%;
+	line-height: 180%;
+	position: absolute;
+}
+
+.footer-artikel .information .social {
+	margin-top: 2%;
+	margin-left: 75%;
+	position: absolute;
+}
+.footer-artikel .information .social h2 {
+	margin-left: 9%;
+	margin-bottom: 3%;
+}
+.footer-artikel .information .social a img {
+	width: 13%;
+	height: 13%;
+	margin-left: 4%;
+	margin-bottom: 2%;
+}
+.footer-artikel .garis {
+	width: 100%;
+	height: 1%;
+	margin-top: 10%;
+	background-color: #e52425;
+	border:1px solid #e52425;
+	position: absolute;
+}
+.footer-artikel .copyright {
+	margin-top: 11.5%;
+	margin-left: 75%;
+	font-weight: bold;
+	position: absolute;
+}
+.profilee {
+	margin-top: 5%;
+	margin-left: 5%;
+	background-color: #ebebeb;
+	width: 90%;
+	height: 450px;
+	padding-top: 3%;
+}
+.profilee .photo {
+	margin-left: 5%;
+	border: 1px solid #e52425;
+	background-color: #d7d7d7;
+	width: 25%;
+	height: 70%;
+	border-radius: 10px;
+}
+.profilee .photo img {
+	margin-top: 10%;
+	margin-left: 25%;
+	width: 50%;
+/*	animation: photo infinite 20s linear;*/
+}
+/*@keyframes photo {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
+	}
+}*/
+.profilee .photo p#name {
+	margin-top: 5%;
+	font-size: 16pt;
+	text-align: center;
+}
+.profilee .photo p#poin {
+	font-size: 16pt;
+	text-align: center;
+}
+.profilee .photo p#description {
+	margin-top: 10%;
+	text-align: center;
+	font-size: 18pt;
+	font-weight: bold;
+}
+.profilee .description {
+	margin-top: -28%;
+	margin-left: 40%;
+	width: 50%;
+	height: 56%;
+	padding: 3%;
+	border: 1px solid #e52425;
+	background-color: #d7d7d7;
+	border-radius: 10px;
+}
+.profilee .description p {
+	line-height: 300%;
+}
+.profilee .description button#change {
+	float: right;
+	margin-right: 0%;
+	background-color: #e52425;
+	border:1px solid #e52425;
+	border-radius: 10px;
+	color: white;
+	padding: 1% 3%;
+	width: 20%;
+	margin-top: 10%;
+}
+.profilee .description button#change:hover {
+	background-color: white;
+	border:1px solid #e52425;
+	color: #e52425;
+}
+
+/*Edit.php*/
+.form {
+	margin-top: 10%;
+	margin-left: 5%;
+}
+
+
+/*Ayo-Donasi*/
+.whole {
+	border:1px solid #e52425;
+	border-radius: 10px;
+	margin-left: 2%;
+	margin-top: 2%;
+	width: 92%;
+	padding: 2%;
+}
+.whole .back-title {
+	background-color: #e52425;
+	border-radius: 3px;
+	margin-left: 5%;
+	width: 5%;
+	padding: 1% 4%;
+}
+.whole p#title {
+	text-align: center;
+	color: white;
+	font-size: 16pt;
+}
+.alamat {
+	margin-left: 5%;
+	width: 81%;
+	height: 350px;
+	padding: 3% 5%;
+	background-color: #e52425;
+}
+.alamat .potrait1 {
+	border:1px solid white;
+	border-radius: 5px;
+	width: 5%;
+	height: 300px;
+}
+.alamat .landscape {
+	border-radius: 5px;
+	border :1px solid white;
+	width: 75.2%;
+	height: 50px;
+	position: absolute;
+	margin-top: 0%;
+}
+.alamat .potrait2 {
+	border-radius: 5px;
+	height: 300px;
+	border:1px solid white;
+}
+.alamat .potrait2#left {
+	width: 35.7%;
+	margin-left:3.7%;
+	position: absolute;
+}
+.alamat .potrait2#left p {
+	text-align: center;
+	margin-top: 3%;
+	font-size: 18pt;
+	color: white;
+}
+.alamat .potrait2#right {
+	width: 35.7%;
+	margin-left: 39.5%;
+	position: absolute;
+}
+.alamat .potrait2#right p {
+	text-align: center;
+	margin-top: 2.5%;
+	font-size: 18pt;
+	color: white;
+}
+.alamat .pemilik1 {
+	border: 1px solid white;
+	width: 35.8%;
+	margin-left: 3.7%;
+	height: 120px;
+	position: absolute;
+	margin-top: 4.1%;
+}
+.alamat .alamat1 {
+	border: 1px solid white;
+	width: 35.7%;
+	margin-left: 39.5%;
+	height: 120px;
+	position: absolute;
+	margin-top: 4.1%;
+}
+.alamat .pemilik2 {
+	border: 1px solid white;
+	width: 35.7%;
+	margin-left: 3.7%;
+	height: 126px;
+	position: absolute;
+	margin-top: 13.7%;
+}
+.alamat .alamat2 {
+	border: 1px solid white;
+	width: 35.7%;
+	margin-left: 39.5%;
+	height: 126px;
+	position: absolute;
+	margin-top: 13.7%;
+}
+.alamat button#add {
+	border:1px solid #e52425;
+	background-color: white;
+	color :#e52425;
+	border-radius: 10px;
+	float: right;
+	margin-top: 2.5%;
+	padding: 1% 3%;
+	font-size: 12pt;
+}
+button#next {
+	float: right;
+	background-color: #e52425;
+	border:1px solid #e52425;
+	color: white;
+	font-size: 14pt;
+	margin-right: 2%;
+	padding: 1% 3%;
+	margin-top: 1.5%;
+	margin-bottom: 2%;
+}
+.footer {
+	margin-top: 5%;
+	background-color: #d9d9d9;
+	height: 170px;
+}
+
+.footer .information .logo img {
+	width: 15%;
+	height: 15%;
+	margin-top: 2%;
+	margin-left: 3%;
+	position: absolute;
+}
+
+.footer .information .info {
+	margin-top: 2%;
+	margin-left: 21%;
+	line-height: 180%;
+	position: absolute;
+}
+
+.footer .information .social {
+	margin-top: 2%;
+	margin-left: 75%;
+	position: absolute;
+}
+.footer .information .social h2 {
+	margin-left: 9%;
+	margin-bottom: 3%;
+}
+.footer .information .social a img {
+	width: 13%;
+	height: 13%;
+	margin-left: 4%;
+	margin-bottom: 2%;
+}
+.footer .garis {
+	width: 99.8%;
+	height: 1%;
+	margin-top: 10%;
+	background-color: #e52425;
+	border:1px solid #e52425;
+	position: absolute;
+}
+.footer .copyright {
+	margin-top: 11.5%;
+	margin-left: 75%;
+	font-weight: bold;
+	position: absolute;
+}

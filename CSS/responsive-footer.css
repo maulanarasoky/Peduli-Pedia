@@ -1,0 +1,182 @@
+@media only screen and (width:320px) {
+    .footer {
+        width: 100%;
+        height: 360px;
+    }
+    .footer .information .logo {
+        margin-left: 30%;
+        padding: 2% 0;
+    }
+    .footer .information .logo img {
+        width: 40%;
+    }
+    .footer .garis {
+        margin-top: 28%;
+        width: 100%;
+    }
+    .footer .information .info {
+        margin-top: 35%;
+        margin-left: 25%;
+        font-size: 12pt;
+        text-align: center;
+    }
+    .footer .information .social {
+        margin-top: 67%;
+        margin-left: 0%;
+        padding: 2% 25%;
+        width: 90%;
+    }
+    .footer .information .social img {
+        width: 105%;
+        height: 105%;
+    }
+    .footer .copyright {
+        margin-top: 100%;
+        margin-left: 0;
+        width: 100%;
+    }
+    .footer .copyright p {
+        text-align: center;
+        font-size: 10pt;
+    }
+}
+@media only screen and (width:480px) {
+    .footer {
+        width: 100%;
+        height: 400px;
+    }
+    .footer .information .logo {
+        margin-left: 28%;
+        padding: 2% 0;
+    }
+    .footer .information .logo img {
+        width: 35%;
+    }
+    .footer .garis {
+        margin-top: 20%;
+        width: 99.5%;
+    }
+    .footer .information .info {
+        margin-top: 30%;
+        margin-left: 28%;
+        font-size: 13pt;
+        text-align: center;
+    }
+    .footer .information .social {
+        margin-top: 55%;
+        margin-left: 0%;
+        padding: 2% 30%;
+        width: 50%;
+    }
+    .footer .information .social img {
+        width: 135px;
+        height: 135px;
+    }
+    .footer .copyright {
+        margin-top: 75%;
+        margin-left: 0;
+        width: 100%;
+    }
+    .footer .copyright p {
+        text-align: center;
+        font-size: 10pt;
+    }
+}
+@media only screen and (width:768px) {
+    .footer {
+        width: 100%;
+        height: 170px;
+    }
+    .footer .information .logo img {
+        width: 20%;
+    }
+    .footer .garis {
+        margin-top:15%;
+    }
+    .footer .information .info {
+        margin-left: 25%;
+        margin-top: 3%;
+    }
+    .footer .information .social {
+        margin-top: 3%;
+        margin-left: 70%;
+    }
+    .footer .information .social a img {
+        width: 17%;
+    }
+    .footer .copyright {
+        margin-left: 63%;
+        margin-top: 18%;
+    }
+}
+@media only screen and (width:1024px) {
+    .footer {
+        width: 100%;
+        height: 170px;
+    }
+    .footer .information .logo img {
+        width: 15%;
+        height: 10%;
+        margin-top: 1.5%;
+    }
+    .footer .garis {
+        margin-top:11%;
+    }
+    .footer .copyright {
+        margin-left: 72%;
+        margin-top: 13.5%;
+    }
+}
+@media only screen and (width:1366px) {
+    .footer {
+        height: 190px;
+    }
+    .footer .copyright {
+        margin-left: 77%;
+    }
+}
+@media only screen and (width:1440px) {
+    .footer {
+        width: 100%;
+        height: 200px;
+    }
+    .footer .information .logo img {
+        width: 15%;
+        height: 10%;
+        margin-top: 1.5%;
+    }
+    .footer .garis {
+        margin-top:10%;
+    }
+    .footer .copyright {
+        margin-left: 79%;
+        margin-top: 11.7%;
+    }
+}
+@media only screen and (width:2560px) {
+    .footer {
+        width: 100%;
+        height: 370px;
+    }
+    .footer .information .logo img {
+        width: 15%;
+        height: 10%;
+        margin-top: 1.5%;
+    }
+    .footer .information .info {
+        font-size: 24pt;
+    }
+    .footer .information .social {
+        font-size: 24pt;
+    }
+    .footer .garis {
+        margin-top:10%;
+    }
+    .footer .copyright {
+        margin-left: 76%;
+        margin-top: 11.7%;
+    }
+    .footer .copyright p {
+        font-size: 24pt;
+    }
+}

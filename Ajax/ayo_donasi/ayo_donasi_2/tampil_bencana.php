@@ -1,0 +1,4 @@
+<?php
+    
+    $bencana = mysqli_query($conn, "SELECT ID_BENCANA FROM DAFTAR_BENCANA WHERE ID_DONATUR = (SELECT ID_DONATUR FROM DONATUR WHERE USERNAME = '$user')");
+?>

@@ -1,0 +1,50 @@
+.navbar-logo {
+	position: fixed;
+	margin-top: -10%;
+	z-index: 1;
+	box-shadow: 10px 0 2px 0;
+	background: #fff;
+	width: 100%;
+}
+.navbar-logo .logo {
+	width: 15%;
+	height: 85px;
+	margin-left: 2.5%;
+}
+.navbar-logo .logo a#home img {
+	width: 80%;
+	margin-top: 3%;
+}
+.navbar-logo .user {
+	position: absolute;
+	margin-top: -6%;
+	height: 12%;
+	margin-left: 79%;
+}
+.navbar-logo .user a#user img#foto-profile {
+	margin-top: 1%;
+	width: 70px;
+	height: 70px;
+	object-fit: cover;
+	border-radius: 50%;
+}
+.navbar-logo .user a#user p#user {
+	position: absolute;
+	margin-left: 30%;
+	color: #e52425;
+	font-size: 14pt;
+	margin-top: -70%;
+	margin-left: 130%;
+}
+.navbar-logo .logo p#user {
+	text-decoration: none;
+	margin-left: 84.5%;
+	position: absolute;
+	z-index: 1;
+	width: 20%;
+	margin-top: 2.7%;
+	margin-right: 0%;
+	font-size: 14pt;
+	color: #e52425;
+	width: 15.5%;
+}

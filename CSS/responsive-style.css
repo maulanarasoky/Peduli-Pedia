@@ -1,0 +1,671 @@
+@media only screen and (width:320px) {
+    .navbar {
+        width: 100%;
+        height: auto;
+        text-align: center;
+    }
+    .navbar ul {
+        padding: 2% 0 6% 0;
+    }
+    .navbar ul li {
+        display: block;
+        border-bottom: 1px solid white;
+        padding: 2% 0;
+    }
+    .navbar .logo {
+        padding: 5% 5% 25% 5%;
+    }
+    .navbar .logo a img {
+        width: 50%;
+        height: 55%;
+        margin-left: 20%;
+    }
+    .navbar .logo button#daftar {
+        margin-top:35%;
+        padding: 3% 10%;
+        margin-left: -7%;
+    }
+    .navbar .logo button#masuk {
+        padding: 3% 10%;
+    }
+    .slideshow-container {
+        margin-top: -10%;
+    }
+    .slideshow-container .fade img {
+        width: 100%;
+    }
+    .best {
+        width: 90%;
+        height: auto;
+        margin-left: 1.5%;
+        padding: 2%;
+    }
+    .best .grade button {
+        margin-left: 100%;
+        width: 150px;
+	    height: 50px;
+    }
+    .best .grade-donatur {
+        margin-top: 10%;
+        margin-left: 0%;
+        width: 96%;
+        padding: 5% 2%;
+    }
+    .best .grade-relawan {
+        margin-top: 10%;
+        margin-left: 0%;
+        width: 96%;
+        padding: 5% 2%;
+    }
+    .best .grade-kurir {
+        margin-top: 10%;
+        margin-left: 0%;
+        width: 96%;
+        padding: 5% 2%;
+    }
+    .donatur {
+        margin-top: 5%;
+        margin-left: 0%;
+        padding: 0 2%;
+    }
+    .donatur img {
+        width: 100%;
+        margin-left: -1%;
+    }
+    .donatur .description {
+        margin-top: -105%;
+        margin-left: 59%;
+        padding: 2% 3.5%;
+    }
+    .donatur .description p#description {
+        font-size: 9pt;
+        width: 15%;
+        line-height: 23px;
+        text-align: justify;
+    }
+    .relawan img {
+        width: 100%;
+        margin-left: -1%;
+    }
+    .relawan .description {
+        margin-top: -105%;
+        margin-left: 59%;
+        padding: 2% 3.5%;
+    }
+    .relawan .description p#description {
+        font-size: 9pt;
+        width: 15%;
+        line-height: 23px;
+        text-align: justify;
+    }
+    .kurir img {
+        width: 100%;
+        margin-left: -1%;
+    }
+    .kurir .description {
+        margin-top: -105%;
+        margin-left: 59%;
+        padding: 2% 3.5%;
+    }
+    .kurir .description p#description {
+        font-size: 9pt;
+        width: 15%;
+        line-height: 23px;
+        text-align: justify;
+    }
+    #myBtn {
+        padding: 10px;
+        right: 140px;
+    }
+}
+@media only screen and (width:480px) {
+    .navbar {
+        width: 100%;
+        height: auto;
+        text-align: center;
+    }
+    .navbar ul {
+        padding: 2% 0 6% 0;
+
+    }
+    .navbar ul li {
+        display: block;
+        border-bottom: 1px solid white;
+        padding: 2% 0;
+    }
+    .navbar .logo {
+        padding: 5% 5% 25% 5%;
+    }
+    .navbar .logo a img {
+        width: 40%;
+        height: 45%;
+        margin-left: 20%;
+    }
+    .navbar .logo button#daftar {
+        margin-top:25%;
+        padding: 3% 10%;
+        margin-left: -17%;
+    }
+    .navbar .logo button#masuk {
+        padding: 3% 10%;
+    }
+    .slideshow-container {
+        margin-top: -5%;
+    }
+    .slideshow-container .fade img {
+        width: 100%;
+    }
+    .best {
+        width: 90%;
+        height: auto;
+        margin-left: 1.5%;
+        padding: 2%;
+    }
+    .best .grade button {
+        margin-left: 100%;
+        width: 230px;
+	    height: 50px;
+    }
+    .best .grade-donatur {
+        margin-top: -50%;
+        margin-left: 0%;
+        width: 96%;
+        padding: 5% 2%;
+    }
+    .best .grade-relawan {
+        margin-top: -50%;
+        margin-left: 0%;
+        width: 96%;
+        padding: 5% 2%;
+    }
+    .best .grade-kurir {
+        margin-top: -50%;
+        margin-left: 0%;
+        width: 96%;
+        padding: 5% 2%;
+    }
+    .donatur {
+        margin-top: 5%;
+        margin-left: .5%;
+        padding: 0 2%;
+    }
+    .donatur img {
+        width: 100%;
+        margin-left: -1%;
+    }
+    .donatur .description {
+        margin-top: -68%;
+        margin-left: 59%;
+        padding: 2% 3.5%;
+        width:20%;
+    }
+    .donatur .description p#description {
+        font-size: 10pt;
+        width: 80%;
+        line-height: 23px;
+        text-align: justify;
+    }
+    .relawan img {
+        width: 100%;
+        margin-left: .5%;
+    }
+    .relawan .description {
+        margin-top: -68%;
+        margin-left: 60%;
+        padding: 2% 3.5%;
+        width:20%;
+    }
+    .relawan .description p#description {
+        font-size: 10pt;
+        width: 80%;
+        line-height: 23px;
+        text-align: justify;
+    }
+    .kurir img {
+        width: 100%;
+        margin-left: .5%;
+    }
+    .kurir .description {
+        margin-top: -68%;
+        margin-left: 60%;
+        padding: 2% 3.5%;
+        width:20%;
+    }
+    .kurir .description p#description {
+        font-size: 10pt;
+        width: 80%;
+        line-height: 23px;
+        text-align: justify;
+    }
+    #myBtn {
+        padding: 10px;
+        right: 105px;
+    }
+}
+@media only screen and (width:768px) {
+    .navbar {
+        width: 100%;
+        height: auto;
+        text-align: center;
+    }
+    .navbar ul {
+        padding: 2% 0 6% 0;
+    }
+    .navbar ul li {
+        display: block;
+        border-bottom: 1px solid white;
+        padding: 2% 0;
+    }
+    .navbar .logo {
+        padding: 5% 5% 25% 5%;
+    }
+    .navbar .logo a img {
+        width: 50%;
+        height: 60%;
+        margin-left: 20%;
+    }
+    .navbar .logo button#daftar {
+        margin-top:25%;
+        padding: 3% 10%;
+        margin-left: -7%;
+    }
+    .navbar .logo button#masuk {
+        padding: 3% 10%;
+    }
+    .slideshow-container {
+        margin-top: -5%;
+    }
+    .slideshow-container .fade img {
+        width: 100%;
+    }
+    .best {
+        width: 90%;
+        height: auto;
+        margin-left: 1.5%;
+        padding: 2%;
+    }
+    .best .grade button {
+        margin-left: 120%;
+        width: 330px;
+	    height: 60px;
+    }
+    .best .grade-donatur {
+        margin-top: -23%;
+        margin-left: 0%;
+        width: 96%;
+        padding: 5% 2%;
+    }
+    .best .grade-relawan {
+        margin-top: -23%;
+        margin-left: 0%;
+        width: 96%;
+        padding: 5% 2%;
+    }
+    .best .grade-kurir {
+        margin-top: -23%;
+        margin-left: 0%;
+        width: 96%;
+        padding: 5% 2%;
+    }
+    .donatur {
+        margin-top: 5%;
+        margin-left: .5%;
+        padding: 0 2%;
+    }
+    .donatur img {
+        width: 100%;
+        margin-left: -1%;
+    }
+    .donatur .description {
+        margin-top: -45%;
+        margin-left: 58%;
+        padding: 2% 3.5%;
+        width:21.5%;
+        height: auto;
+    }
+    .donatur .description p#description {
+        font-size: 12pt;
+        width: 90%;
+        line-height: 33px;
+        text-align: justify;
+    }
+    .relawan img {
+        width: 100%;
+        margin-left: .5%;
+    }
+    .relawan .description {
+        margin-top: -45%;
+        margin-left: 59%;
+        padding: 2% 3.5%;
+        width:21.5%;
+        height: auto;
+    }
+    .relawan .description p#description {
+        font-size: 12pt;
+        width: 90%;
+        line-height: 33px;
+        text-align: justify;
+    }
+    .kurir img {
+        width: 100%;
+        margin-left: .5%;
+    }
+    .kurir .description {
+        margin-top: -45%;
+        margin-left: 59%;
+        padding: 2% 3.5%;
+        width:21.5%;
+        height: auto;
+    }
+    .kurir .description p#description {
+        font-size: 12pt;
+        width: 90%;
+        line-height: 33px;
+        text-align: justify;
+    }
+    #myBtn {
+        padding: 10px;
+        right: 105px;
+    }
+}
+@media only screen and (width:1024px) {
+    .navbar .logo button#daftar {
+        margin-left:75%;
+        margin-top: 1.8%;
+    }
+    .slideshow-container .fade img {
+        width: 102.4%;
+    }
+    .best {
+        width: 93%;
+        height: auto;
+        margin-left: 1.5%;
+        padding: 2%;
+    }
+    .best .grade button {
+        margin-left: -1%;
+        width: 250px;
+	    height: 60px;
+    }
+    .best .grade-donatur {
+        margin-top: -37%;
+        margin-left: 35%;
+        width: 60%;
+        padding: 5% 2%;
+    }
+    .best .grade-relawan {
+        margin-top: -37%;
+        margin-left: 35%;
+        width: 60%;
+        padding: 5% 2%;
+    }
+    .best .grade-kurir {
+        margin-top: -37%;
+        margin-left: 35%;
+        width: 60%;
+        padding: 5% 2%;
+    }
+    .donatur {
+        margin-top: 1%;
+        margin-left: .5%;
+        padding: 0 2%;
+    }
+    .donatur img {
+        width: 100%;
+        margin-left: -1%;
+    }
+    .donatur .description {
+        margin-top: -35%;
+        margin-left: 57%;
+        padding: 2% 3.5%;
+        width:21.5%;
+        height: auto;
+    }
+    .donatur .description p#description {
+        font-size: 12pt;
+        width: 110%;
+        line-height: 33px;
+    }
+    .relawan img {
+        width: 100%;
+        margin-left: .5%;
+    }
+    .relawan .description {
+        margin-top: -35%;
+        margin-left: 59%;
+        padding: 2% 3.5%;
+        width:21.5%;
+        height: auto;
+    }
+    .relawan .description p#description {
+        font-size: 12pt;
+        width: 110%;
+        line-height: 33px;
+    }
+    .kurir img {
+        width: 100%;
+        margin-left: .5%;
+    }
+    .kurir .description {
+        margin-top: -35%;
+        margin-left: 58%;
+        padding: 2% 3.5%;
+        width:21.5%;
+        height: auto;
+    }
+    .kurir .description p#description {
+        font-size: 12pt;
+        width: 110%;
+        line-height: 33px;
+    }
+    #myBtn {
+        padding: 10px;
+        right: 35px;
+    }
+
+}
+@media only screen and (width:1366px) {
+    .slideshow-container .fade img {
+        width:136.5%;
+    }
+    .best .grade-donatur {
+        margin-top:-31.5%;
+    }
+    .best {
+        width:94%;
+        padding:2%;
+    }
+}
+@media only screen and (width:1440px) {
+    .navbar {
+        width: 100%;
+    }
+    .slideshow-container .fade img {
+        width: 144%;
+    }
+    .best {
+        width: 93%;
+        height: auto;
+        margin-left: 1.5%;
+        padding: 2%;
+    }
+    .best .grade button {
+        margin-left: -1%;
+        width: 250px;
+	    height: 60px;
+    }
+    .best .grade-donatur {
+        margin-top: -31%;
+        margin-left: 35%;
+        width: 60%;
+        padding: 5% 2%;
+    }
+    .best .grade-relawan {
+        margin-top: -31%;
+        margin-left: 35%;
+        width: 60%;
+        padding: 5% 2%;
+    }
+    .best .grade-kurir {
+        margin-top: -31%;
+        margin-left: 35%;
+        width: 60%;
+        padding: 5% 2%;
+    }
+    .donatur {
+        margin-top: 1%;
+        margin-left: .5%;
+        padding: 0 2%;
+    }
+    .donatur img {
+        width: 100%;
+        margin-left: -1%;
+    }
+    .donatur .description {
+        margin-top: -27%;
+        margin-left: 58.5%;
+        width:28%;
+        height: auto;
+    }
+    .donatur .description p#description {
+        font-size: 16pt;
+        width: 110%;
+        margin-left: -5%;
+        line-height: 80px;
+    }
+    .relawan img {
+        width: 100%;
+        margin-left: .5%;
+    }
+    .relawan .description {
+        margin-top: -27%;
+        margin-left: 60%;
+        width:28%;
+        height: auto;
+    }
+    .relawan .description p#description {
+        font-size: 16pt;
+        width: 110%;
+        margin-left: -5%;
+        line-height: 80px;
+    }
+    .kurir img {
+        width: 100%;
+        margin-left: .5%;
+    }
+    .kurir .description {
+        margin-top: -27%;
+        margin-left: 60%;
+        width:28%;
+        height: auto;
+    }
+    .kurir .description p#description {
+        font-size: 16pt;
+        width: 110%;
+        margin-left: -5%;
+        line-height: 80px;
+    }
+    #myBtn {
+        padding: 10px;
+        right: 60px;
+    }
+}
+@media only screen and (width:2560px) {
+    .navbar {
+        width: 100%;
+        height: 190px;
+    }
+    .navbar .logo {
+        width: 100%;
+        height: 70%;
+    }
+    .slideshow-container .fade img {
+        width: 256%;
+    }
+    .best {
+        width: 93%;
+        height: auto;
+        margin-left: 1.5%;
+        padding: 2%;
+    }
+    .best .grade button {
+        margin-left: -1%;
+        width: 550px;
+	    height: 90px;
+    }
+    .best .grade-donatur {
+        margin-top: -29%;
+        margin-left: 35%;
+        width: 60%;
+        padding: 5% 2%;
+    }
+    .best .grade-relawan {
+        margin-top: -29%;
+        margin-left: 35%;
+        width: 60%;
+        padding: 5% 2%;
+    }
+    .best .grade-kurir {
+        margin-top: -29%;
+        margin-left: 35%;
+        width: 60%;
+        padding: 5% 2%;
+    }
+    .donatur {
+        margin-top: 1%;
+        margin-left: .5%;
+        padding: 0 2%;
+    }
+    .donatur img {
+        width: 100%;
+        margin-left: -1%;
+    }
+    .donatur .description {
+        margin-top: -17.5%;
+        margin-left: 58.5%;
+        width:28%;
+        height: auto;
+    }
+    .donatur .description p#description {
+        font-size: 24pt;
+        width: 150%;
+        margin-left: -25%;
+        line-height: 80px;
+    }
+    .relawan img {
+        width: 100%;
+        margin-left: .5%;
+    }
+    .relawan .description {
+        margin-top: -17.5%;
+        margin-left: 60%;
+        width:28%;
+        height: auto;
+    }
+    .relawan .description p#description {
+        font-size: 24pt;
+        width: 150%;
+        margin-left: -25%;
+        line-height: 80px;
+    }
+    .kurir img {
+        width: 100%;
+        margin-left: .5%;
+    }
+    .kurir .description {
+        margin-top: -17.5%;
+        margin-left: 60%;
+        width:28%;
+        height: auto;
+    }
+    .kurir .description p#description {
+        font-size: 24pt;
+        width: 150%;
+        margin-left: -25%;
+        line-height: 80px;
+    }
+    #myBtn {
+        padding: 20px;
+        right: 80px;
+    }
+}

@@ -1,0 +1,248 @@
+* {
+    margin :0;
+    padding: 0;
+    font-family: sans-serif;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+.navbar-logo {
+	position: fixed;
+	margin-top: -10%;
+	z-index: 1;
+	box-shadow: 10px 0 2px 0;
+	background: #fff;
+	width: 100%;
+}
+.navbar-logo .logo {
+	width: 15%;
+	height: 85px;
+	margin-left: 2.5%;
+}
+.navbar-logo .logo a#home img {
+	width: 80%;
+	margin-top: 3%;
+}
+.navbar-logo .user {
+	position: absolute;
+	margin-top: -6%;
+	height: 12%;
+	margin-left: 79%;
+}
+.navbar-logo .user a#user img {
+	margin-top: 1%;
+	width: 25%;
+}
+.navbar-logo .user a#user p#user {
+	position: absolute;
+	margin-left: 30%;
+	color: #e52425;
+	font-size: 14pt;
+	margin-top: -18%;
+}
+.navbar-logo .logo p#user {
+	text-decoration: none;
+	margin-left: 84.5%;
+	position: absolute;
+	z-index: 1;
+	width: 20%;
+	margin-top: 2.7%;
+	margin-right: 0%;
+	font-size: 14pt;
+	color: #e52425;
+	width: 15.5%;
+}
+
+.footer#tambah-alamat {
+    margin-top: 5%;
+    background-color: #d9d9d9;
+    height: 170px;
+}
+
+.footer#tambah-alamat .information .logo img {
+    width: 15%;
+    height: 15%;
+    margin-top: 2%;
+    margin-left: 3%;
+    position: absolute;
+}
+
+.footer#tambah-alamat .information .info {
+    margin-top: 2%;
+    margin-left: 21%;
+    line-height: 180%;
+    position: absolute;
+}
+
+.footer#tambah-alamat .information .social {
+    margin-top: 2%;
+    margin-left: 75%;
+    position: absolute;
+}
+.footer#tambah-alamat .information .social h2 {
+    margin-left: 9%;
+    margin-bottom: 3%;
+}
+.footer#tambah-alamat .information .social a img {
+    width: 13%;
+    height: 13%;
+    margin-left: 4%;
+    margin-bottom: 2%;
+}
+.footer#tambah-alamat .garis {
+    width: 99.8%;
+    height: 1%;
+    margin-top: 10%;
+    background-color: #e52425;
+    border:1px solid #e52425;
+    position: absolute;
+}
+.footer#tambah-alamat .copyright {
+    margin-top: 11.5%;
+    margin-left: 75%;
+    font-weight: bold;
+    position: absolute;
+}
+
+
+.daftar-alamat {
+    background: rgb(228, 228, 228);
+    width: 90%;
+    margin: 10% 5%;
+    padding: 40px 0 100px 0;
+    height: 980px;
+}
+
+.daftar-alamat .title {
+    margin: -2% 0% 1% 0%;
+    border-bottom: 1px solid gray;
+    height: 5%; 
+}
+
+.daftar-alamat .title p#title {
+    margin-left: 2%;
+    margin-top: 1%;
+    font-size: 14pt;
+}
+
+.daftar-alamat .title button#tambah-alamat {
+    margin-left: 75%;
+    color: white;
+    border:1px solid #e52425;
+    border-radius: 5px;
+    background-color: #e52425;
+    position: absolute;
+    margin-top: -2.3%;
+    padding: .7% 1.5%;
+    cursor: pointer;
+}
+
+.daftar-alamat .title button#tambah-alamat:hover {
+    border:1px solid #e52425;
+    background: #fff;
+    color:#e52425;
+}
+
+.daftar-alamat .description {
+    margin: 2%;
+}
+
+.daftar-alamat .description table#daftar-alamat {
+    border-collapse: collapse;
+    width: 99.5%;
+}
+
+.daftar-alamat .description table#daftar-alamat tr#alamat {
+    background-color: #ebebebeb;
+}
+
+.daftar-alamat .description table#daftar-alamat tr td{
+    text-align: center;
+}
+
+.daftar-alamat .description table#daftar-alamat, table#daftar-alamat th, table#daftar-alamat tr, table#daftar-alamat td {
+    border-collapse: collapse;
+    border: 1px solid gray;
+    padding: 1% 9%;
+}
+
+.daftar-alamat .description table tr#alamat td input#checkbox {
+    width: 30px;
+}
+
+.daftar-alamat .description input#delete {
+    padding: .8% 4%;
+    border-radius: 10px;
+    margin-top: 1%;
+    margin-left: 85%;
+    color: white;
+    background-color: #e52425;
+    border:1px solid #e52425;
+}
+
+.form-tambah {
+    color: gray;
+    background: rgb(228, 228, 228);
+    margin: -90% 0% 1% 30%;
+    padding: 1% 5% 0% 5%;
+    width: 30%;
+    height: 280px;
+    position: absolute;
+    display: none;
+    overflow: scroll;
+}
+
+.form-tambah .title p#title {
+    margin-top: 1%;
+    margin-bottom: 3%;
+}
+
+.form-tambah .title {
+    border-bottom: 1px solid gray;
+    margin-bottom: 5%;
+}
+
+.form-tambah form table tr td input{
+    padding: 3% 5%;
+    margin-bottom: 7%;
+}
+.form-tambah form table tr td{
+    width: 10%;
+}
+
+.form-tambah form table tr td input#simpan {
+    margin-left: 50%;
+    position: absolute;
+    color: white;
+    border:1px solid #e52425;
+    border-radius: 5px;
+    background-color: #e52425;
+    padding: 2.5% 6%;
+}
+
+.whole-cover {
+    margin-top: -101%;
+    background-color: black;
+    width: 100%;
+    height: 225.5%;
+    display: none;
+    position: fixed;
+    z-index: 1;
+    opacity: .8;
+}
+
+button#hapus {
+    width:100px;
+    height: 40px;
+    border:1px solid #fff;
+    background: #e52425;
+    color:#fff;
+    border-radius: 10px;
+    cursor: pointer;
+}
+button#hapus:hover {
+    border:1px solid #e52425;
+    background: #fff;
+    color:#e52425;
+}

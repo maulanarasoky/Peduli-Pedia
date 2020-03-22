@@ -1,0 +1,682 @@
+* {
+	margin :0;
+	padding: 0;
+	font-family: sans-serif;
+}
+html {
+	scroll-behavior: smooth;
+}
+.navbar-logo {
+	position: fixed;
+	margin-top: -10%;
+	z-index: 1;
+	box-shadow: 10px 0 2px 0;
+	background: #fff;
+	width: 100%;
+}
+.navbar-logo .logo {
+	width: 15%;
+	height: 85px;
+	margin-left: 2.5%;
+}
+.navbar-logo .logo a#home img {
+	width: 80%;
+	margin-top: 3%;
+}
+.navbar-logo .user {
+	position: absolute;
+	margin-top: -6%;
+	height: 12%;
+	margin-left: 79%;
+}
+.navbar-logo .user a#user img {
+	margin-top: 1%;
+	width: 25%;
+}
+.navbar-logo .user a#user p#user {
+	position: absolute;
+	margin-left: 30%;
+	color: #e52425;
+	font-size: 14pt;
+	margin-top: -18%;
+}
+.navbar-logo .logo p#user {
+	text-decoration: none;
+	margin-left: 84.5%;
+	position: absolute;
+	z-index: 1;
+	width: 20%;
+	margin-top: 2.7%;
+	margin-right: 0%;
+	font-size: 14pt;
+	color: #e52425;
+	width: 15.5%;
+}
+.semua {
+    background: rgb(228, 228, 228);
+    width: 90%;
+    margin: 10% 5%;
+    padding: 40px 0 100px 0;
+    height: auto;
+}
+.semua .langkah {
+    width: 95%;
+    margin: 30px 2.5%;
+}
+.semua .langkah ul {
+    list-style: none;
+    overflow: hidden;
+    margin-left: 3%;
+}
+.semua .langkah ul li {
+    float: left;
+    width: 25%;
+    
+}
+.semua .langkah ul li img {
+    height: 100%;
+    width: 11%;
+    float: left;
+}
+.semua .langkah ul li .tulisan {
+    display: inline-block;
+    margin: 5px 5px;
+    height: 100%;
+}
+.semua .langkah ul li p {
+    font-size: 14pt;
+}
+p#pilih {
+    color: #e52425;
+}
+.whole {
+	border:1px solid #e52425;
+	border-radius: 10px;
+	margin: 2% 5.5% 0 5.5%;
+    width: 85%;
+    height: auto;
+	padding: 2%;
+}
+.whole .back-title {
+	background-color: #e52425;
+	border-radius: 5px 5px 0 0;
+	margin-left: 5%;
+	width: 6%;
+	padding: 1% 4%; 
+}
+.whole .back-titlee {
+    border-radius: 5px 5px 0 0;
+    margin-top: -4.5%;
+    margin-left: 20%;
+    width: 6%;
+    padding: 1% 4%; 
+}
+.whole p#title {
+	color: white;
+	font-size: 16pt;
+}
+.whole p#titlee {
+    color: #e52425;
+    font-size: 16pt;
+}
+.alamat {
+	margin-left: 5%;
+	width: 81%;
+	height: auto;
+	padding: 5% 5% 10% 5%;
+	background-color: #e52425;
+}
+.alamat table#daftar {
+    width: 95%;
+    margin-left: 2.5%;
+}
+.alamat table#daftar th, .alamat table#daftar td {
+    padding: 10px 0;
+    color: white;
+    font-size: 16pt;
+}
+.alamat table#daftar td {
+    text-align: center;
+}
+.alamat table#daftar, .alamat table#daftar th, .alamat table#daftar tr, .alamat table#daftar td {
+    border-collapse: collapse;
+    border: white 3px solid;
+}
+
+.alamat table#tambah-alamat{
+    border:none;
+    margin-top: 2%;
+    margin-left: 2%;
+}
+
+.alamat table#tambah-alamat tr td{
+    border:none;
+}
+
+.alamat table#tambah-alamat tr td textarea{
+    padding: 2% 5%;
+    width: 496%;
+}
+
+.alamat button#add {
+	border:1px solid #e52425;
+	background-color: white;
+	color :#e52425;
+	border-radius: 10px;
+	float: right;
+	margin: 2.5% 2.5% 0 0;
+	padding: 1% 3%;
+    font-size: 12pt;
+    box-sizing: border-box;
+    outline: none;
+    cursor: pointer;
+}
+.alamat button#save {
+	border:1px solid #e52425;
+	background-color: white;
+	color :#e52425;
+	border-radius: 10px;
+	float: right;
+	margin: 2.5% 2.5% 0 0;
+	padding: 1% 3%;
+    font-size: 12pt;
+    box-sizing: border-box;
+    outline: none;
+    cursor: pointer;
+    display: none;
+}
+/* Halaman 2 */
+.donasi {
+    margin-left: 5%;
+    margin-top: -.1%;
+	width: 81%;
+	height: 725px;
+	padding: 3% 5%;
+	background-color: #e52425;
+    display: block;
+}
+.donasi table#barang {
+    width: 100%;
+    border-collapse: collapse;
+    border: 3px white solid;
+    color: white;
+}
+.donasi table#barang tr td {
+    border: none;
+    padding: 10px;
+}
+.donasi table#barang tr {
+    border: none;
+    padding: 10px;
+}
+.donasi table#barang p {
+    margin: 10px 0;
+    font-size: 18pt;
+}
+.donasi table#barang input[type=text] {
+    width: 90%;
+    height: 35px;
+    outline: none;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: none;
+    font-size: 14pt;
+    padding: 5px 12px;
+}
+.donasi table#barang input[type=number] {
+    width: 45%;
+    height: 35px;
+    outline: none;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: none;
+    font-size: 14pt;
+    padding: 5px 12px;
+}
+.donasi td#nama {
+    width: 65%;
+}
+.donasi table#barang textarea {
+    width: 95%;
+    height: 150px;
+    outline: none;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: none;
+    font-size: 14pt;
+    padding: 5px 12px;
+}
+.donasi button#save {
+	border: 1px solid #e52425;
+	background-color: white;
+	color :#e52425;
+	border-radius: 8px;
+	float: right;
+	margin: 2.5% 0 0 0;
+	padding: 1% 3%;
+    font-size: 16pt;
+    box-sizing: border-box;
+    outline: none;
+    cursor: pointer;
+    transition: border .3s, background .3s, color .3s;
+}
+.donasi button#save:hover {
+	border: 1px solid white;
+	background: #e52425;
+	color :white;
+	
+}
+.donasi button#add {
+    border: 1px solid #e52425;
+    background-color: white;
+    color :#e52425;
+    border-radius: 8px;
+    margin: 2.5% 0 0 0;
+    padding: 1% 3%;
+    font-size: 16pt;
+    box-sizing: border-box;
+    outline: none;
+    cursor: pointer;
+    transition: border .3s, background .3s, color .3s;
+}
+.donasi button#add:hover {
+    border: 1px solid white;
+    background: #e52425;
+    color :white;
+    
+}
+
+.donasi-uang {
+    margin-left: 5%;
+    width: 81%;
+    height: 525px;
+    padding: 3% 5%;
+    background-color: #e52425;
+    display: none;
+}
+.donasi-uang table#barang {
+    width: 100%;
+    border-collapse: collapse;
+    border: 3px white solid;
+    color: white;
+}
+.donasi-uang table#barang tr td {
+    border: none;
+    padding: 10px;
+}
+.donasi-uang table#barang tr {
+    border: none;
+    padding: 10px;
+}
+.donasi-uang table#barang p {
+    margin: 10px 0;
+    font-size: 18pt;
+}
+.donasi-uang table#barang input[type=number] {
+    width: 90%;
+    height: 35px;
+    outline: none;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: none;
+    font-size: 14pt;
+    padding: 5px 12px;
+}
+.donasi-uang table#barang select#bank {
+    width: 45%;
+    height: 35px;
+    outline: none;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: none;
+    font-size: 14pt;
+    padding: 5px 12px;
+}
+.donasi-uang td#nama {
+    width: 65%;
+}
+.donasi-uang table#barang textarea {
+    width: 95%;
+    height: 150px;
+    outline: none;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: none;
+    font-size: 14pt;
+    padding: 5px 12px;
+}
+.donasi-uang button#save {
+    border: 1px solid #e52425;
+    background-color: white;
+    color :#e52425;
+    border-radius: 8px;
+    float: right;
+    margin: 2.5% 0 0 0;
+    padding: 1% 3%;
+    font-size: 16pt;
+    box-sizing: border-box;
+    outline: none;
+    cursor: pointer;
+    transition: border .3s, background .3s, color .3s;
+}
+.donasi-uang button#save:hover {
+    border: 1px solid white;
+    background: #e52425;
+    color :white;
+    
+}
+.donasi-uang button#add {
+    border: 1px solid #e52425;
+    background-color: white;
+    color :#e52425;
+    border-radius: 8px;
+    margin: 2.5% 0 0 0;
+    padding: 1% 3%;
+    font-size: 16pt;
+    box-sizing: border-box;
+    outline: none;
+    cursor: pointer;
+    transition: border .3s, background .3s, color .3s;
+}
+.donasi-uang button#add:hover {
+    border: 1px solid white;
+    background: #e52425;
+    color :white;
+    
+}
+
+input#next {
+	float: right;
+	background-color: #e52425;
+	border:1px solid #e52425;
+	color: white;
+	font-size: 14pt;
+	margin-right: 5%;
+	padding: 1% 3%;
+	margin-top: 3%;
+    margin-bottom: 2%;
+    outline: none;
+    cursor: pointer;
+    border-radius: 10px;
+}
+input#nextt {
+	float: right;
+	background-color: #e52425;
+	border:1px solid #e52425;
+	color: white;
+	font-size: 14pt;
+	margin-right: 5%;
+	padding: 1% 3%;
+	margin-top: 5%;
+    margin-bottom: 2%;
+    outline: none;
+    cursor: pointer;
+    border-radius: 10px;
+}
+button#back {
+	float: left;
+	background-color: #e52425;
+	border:1px solid #e52425;
+	color: white;
+	font-size: 14pt;
+	margin-left: 5%;
+	padding: 1% 3%;
+	margin-top: 3%;
+    margin-bottom: 2%;
+    outline: none;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.donasi table#daftar-bencana {
+    margin-top: 5%;
+    width: 99.5%;
+    height: 270px;
+    color: white;
+}
+.donasi table#daftar-bencana th {
+    padding: 5%;
+    font-size: 16pt;
+    color: white;
+}
+.donasi table#daftar-bencana td {
+    padding: 3%;
+}
+.donasi table, th, tr, td {
+    border-collapse: collapse;
+    border: white 3px solid;
+}
+
+.donasi-uang table#daftar-bencana {
+    margin-top: 13%;
+    width: 99.5%;
+    height: 270px;
+}
+.donasi-uang table#daftar-bencana th {
+    padding: 5%;
+    font-size: 16pt;
+    color: white;
+}
+.donasi-uang table#daftar-bencana td {
+    padding: 3%;
+}
+.donasi-uang table, th, tr, td {
+    border-collapse: collapse;
+    border: white 3px solid;
+}
+
+
+.semuaa {
+    background: rgb(228, 228, 228);
+    width: 90%;
+    margin: 20px 5% 40px 5%;
+    padding: 40px 0 100px 0;
+    height: auto;
+}
+.semuaa .langkah {
+    width: 95%;
+    margin: 30px 2.5%;
+}
+.semuaa .langkah ul {
+    list-style: none;
+    overflow: hidden;
+}
+.semuaa .langkah ul li {
+    float: left;
+    width: 25%;
+}
+.semuaa .langkah ul li img {
+    height: 100%;
+    width: 11%;
+    float: left;
+}
+.semuaa .langkah ul li .tulisan {
+    display: inline-block;
+    margin: 5px 5px;
+    height: 100%;
+}
+.semuaa .langkah ul li p {
+    font-size: 14pt;
+}
+
+
+
+.donasii {
+    margin-left: 5%;
+    width: 81%;
+    height: 580px;
+    padding: 3% 5%;
+    background-color: #e52425;
+}
+
+.donasii .result {
+    border:1px solid white;
+    padding: 5%;
+    height: 500px;
+    border-radius: 10px;
+}
+
+.donasii .result .garis {
+    border:2px solid white;
+    background-color: white;
+    margin-top: 5%;
+}
+
+.donasii .result .daftar-bencana {
+    margin-top: 5%;
+    border:1px solid white;
+    padding: 8%;
+    border-radius: 10px;
+}
+
+.donasii .result .daftar-bencana img {
+    width: 30%;
+}
+
+.donasii .result .daftar-bencana p {
+    margin-top: -15.5%;
+    margin-left: 33%;
+    font-size: 20pt;
+}
+
+.donasii .result p {
+    font-size: 14pt;
+    color: white;
+    line-height: 300%;
+}
+.donasii .result p#right {
+    margin-top: -4.5%;
+    text-align: center;
+    margin-left: 35%;
+    position: absolute;
+}
+
+.donasii-uang {
+    margin-left: 5%;
+    width: 81%;
+    height: 580px;
+    padding: 3% 5%;
+    background-color: #e52425;
+    display: block;
+}
+
+.donasii-uang .result {
+    border:1px solid white;
+    padding: 5%;
+    height: 450px;
+    border-radius: 10px;
+}
+
+.donasii-uang .result .garis {
+    border:2px solid white;
+    background-color: white;
+    margin-top: 5%;
+}
+
+.donasii-uang .result .daftar-bencana {
+    margin-top: 5%;
+    border:1px solid white;
+    padding: 8%;
+    border-radius: 10px;
+}
+
+.donasii-uang .result .daftar-bencana img {
+    width: 30%;
+}
+
+.donasii-uang .result .daftar-bencana p {
+    float: right;
+    margin-top: 1.5%;
+    margin-right: 20%;
+    font-size: 20pt;
+}
+
+.donasii-uang .result p {
+    font-size: 14pt;
+    color: white;
+    line-height: 300%;
+}
+.donasii-uang .result p#right {
+    margin-top: -8%;
+    text-align: center;
+    letter-spacing: 3px;
+    margin-right: 10%;
+    float: right;
+}
+
+
+.whole .valid {
+    background-color: #e52425;
+    padding: 2% 2%;
+    height: 500px;
+    color: white;
+}
+
+.whole .valid h1#keterangan {
+    text-align: center;
+    margin-top: 22%;
+}
+
+.whole .valid h1#keterangan, .valid h1#bank, .valid h1#norek, .valid p#bukti {
+    text-align: center;
+    line-height: 200%;
+}
+
+.whole .valid input#bukti {
+    margin-top: 5%;
+    padding: 1% 3%;
+    margin-left: 40%;
+}
+.whole .alamat form table tr td img#gambar {
+    width:20%;
+    margin-top:1%;
+    margin-left: -60%;
+}
+.whole .alamat form table tr td p {
+    margin-top:-4.5%;
+    position: absolute;
+    margin-left: 20%;
+    font-size:18pt;
+}
+
+.whole .alamat .bencana {
+    margin-left: 5%;
+    color:white;
+}
+
+.whole .alamat .bencana img#gambar {
+    width:20%;
+}
+
+.whole .alamat .bencana p {
+    position: absolute;
+    margin-top: -4.5%;
+    margin-left: 20%;
+    font-size: 18pt;
+}
+
+.whole .alamat .bio {
+    color:white;
+    margin-left: 5%;
+    margin-top: 2%;
+}
+.whole .alamat .bio p {
+    font-size: 14pt;
+    line-height: 200%;
+}
+
+.whole .alamat .agreement {
+    margin-left: 5%;
+    margin-top: 2%;
+    color:white;
+}
+.whole .alamat .agreement p {
+    font-size: 16pt;
+}
+.whole .alamat .checkbox form table#setuju tr td {
+    border:none;
+    color:white;
+}
+.whole .alamat .checkbox {
+    margin-top: 2%;
+    margin-left: 80%;
+}

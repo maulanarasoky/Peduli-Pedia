@@ -1,0 +1,271 @@
+* {
+	margin :0;
+	padding: 0;
+	font-family: sans-serif;
+}
+html {
+	scroll-behavior: smooth;
+}
+.navbar-logo {
+	position: fixed;
+	margin-top: -10%;
+	z-index: 1;
+	box-shadow: 10px 0 2px 0;
+	background: #fff;
+	width: 100%;
+}
+.navbar-logo .logo {
+	width: 15%;
+	height: 85px;
+	margin-left: 2.5%;
+}
+.navbar-logo .logo a#home img {
+	width: 80%;
+	margin-top: 3%;
+}
+.navbar-logo .user {
+	position: absolute;
+	margin-top: -6%;
+	height: 12%;
+	margin-left: 79%;
+}
+.navbar-logo .user a#user img {
+	margin-top: 1%;
+	width: 25%;
+}
+.navbar-logo .user a#user p#user {
+	position: absolute;
+	margin-left: 30%;
+	color: #e52425;
+	font-size: 14pt;
+	margin-top: -18%;
+}
+.navbar-logo .logo p#user {
+	text-decoration: none;
+	margin-left: 84.5%;
+	position: absolute;
+	z-index: 1;
+	width: 20%;
+	margin-top: 2.7%;
+	margin-right: 0%;
+	font-size: 14pt;
+	color: #e52425;
+	width: 15.5%;
+}
+
+.background {
+	background: rgb(228, 228, 228);
+	width: 90%;
+    margin: 10% 5%;
+    padding: 40px 0 70px 0;
+    height: auto;
+    display: block;
+}
+
+.background .frame {
+	border:1px solid #e52425;
+	border-radius: 10px;
+	margin: 2% 5.5% 0 5.5%;
+	width: 85%;
+	padding: 2%;
+}
+
+.background .frame .back-title {
+	background-color: #e52425;
+	border-radius: 5px 5px 0 0;
+	margin-left: 5%;
+	width: 6%;
+	padding: 1% 4%; 
+	cursor: pointer;
+	color: white;
+}
+.background .frame .back-titlee {
+    border-radius: 5px 5px 0 0;
+    margin-top: -4.5%;
+    margin-left: 82.5%;
+	width: 6%;
+	background: none;
+	padding: 1% 4%;
+	cursor: pointer;
+	color: #e52425;
+}
+
+.background .frame .back-title p#title {
+	font-size: 16pt;
+}
+.background .frame .back-titlee p#titlee {
+	font-size: 16pt;
+	margin-left: -14%;
+}
+
+.backgroundd {
+	background: rgb(228, 228, 228);
+	width: 90%;
+    margin: 10% 5%;
+    padding: 40px 0 70px 0;
+	height: auto;
+	display: none;
+}
+
+.backgroundd .frame {
+	border:1px solid #e52425;
+	border-radius: 10px;
+	margin: 2% 5.5% 0 5.5%;
+	width: 85%;
+	padding: 2%;
+}
+
+.backgroundd .frame .back-title {
+	border-radius: 5px 5px 0 0;
+	margin-left: 5%;
+	width: 6%;
+	padding: 1% 4%;
+	cursor: pointer; 
+}
+.backgroundd .frame .back-titlee {
+	background-color: #e52425;
+    border-radius: 5px 5px 0 0;
+    margin-top: -4.5%;
+    margin-left: 82.5%;
+	width: 6%;
+	padding: 1% 4%;
+	cursor: pointer;
+}
+
+.backgroundd .frame .back-title p#title {
+	color: #e52425;
+	font-size: 16pt;
+}
+.backgroundd .frame .back-titlee p#titlee {
+	color:white;
+	font-size: 16pt;
+	margin-left: -14%;
+}
+
+.list-donasi {
+	background-color: #e52425;
+	margin: -.1% 0% 0% 5%;
+	width: 91.5%;
+	height: auto;
+	border-radius: 0px 0px 5px 5px;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	color: white;
+	display: block;
+}
+.list-donasi h1#title {
+	text-align: center;
+}
+.list-donasi .donasi {
+	margin:3%;
+	border:1px solid;
+}
+
+.list-donasi .donasi img {
+	margin: 2%;
+	width: 10%;
+}
+
+.list-donasi .donasi p#nama-bencana {
+	margin-left: 12%;
+	margin-top: -8%;
+	position: absolute;
+}
+
+.list-donasi .donasi p#barang {
+	margin-left: 12%;
+	margin-top: -5%;
+	position: absolute;
+}
+
+.list-donasi .donasi p#catatan {
+	margin-left: 40%;
+	margin-top: -8%;
+	width: 23%;
+	position: absolute;
+}
+
+.list-donasi .donasi form input#pilih {
+	border:1px solid #e52425;
+	background-color: white;
+	color: #e52425;
+	border-radius: 10px;
+	margin-left: 90%;
+	padding: .5% 3%;
+	margin-bottom: 1%;
+}
+.list-riwayat {
+	background-color: #e52425;
+	margin: -.1% 0% 0% 5%;
+	width: 91.5%;
+	height: auto;
+	border-radius: 0px 0px 5px 5px;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	color: white;
+	display: block;
+}
+.list-riwayat h1#title {
+	text-align: center;
+}
+.list-riwayat .donasi {
+	margin:3%;
+	border:1px solid;
+}
+
+.list-riwayat .donasi img {
+	margin: 2%;
+	width: 10%;
+}
+
+.list-riwayat .donasi p#nama-bencana {
+	margin-left: 12%;
+	margin-top: -8%;
+	position: absolute;
+}
+
+.list-riwayat .donasi p#barang {
+	margin-left: 12%;
+	margin-top: -5%;
+	position: absolute;
+}
+
+.list-riwayat .donasi p#catatan {
+	margin-left: 40%;
+	margin-top: -8%;
+	width: 23%;
+	position: absolute;
+}
+
+.list-riwayat .donasi form input#pilih {
+	border:1px solid #e52425;
+	background-color: white;
+	color: #e52425;
+	border-radius: 10px;
+	margin-left: 90%;
+	padding: .5% 3%;
+	margin-bottom: 1%;
+}
+
+.list-donasi .donasi button#pilih {
+	border:1px solid #e52425;
+	background-color: white;
+	color: #e52425;
+	border-radius: 10px;
+	margin-left: 90%;
+	padding: .5% 3%;
+	margin-bottom: 1%;
+	outline: none;
+	cursor: pointer;
+}
+.list-riwayat .donasi button#pilih {
+	border:1px solid #e52425;
+	background-color: white;
+	color: #e52425;
+	border-radius: 10px;
+	margin-left: 82%;
+	padding: .5% 3%;
+	margin-bottom: 1%;
+	outline: none;
+	cursor: pointer;
+}

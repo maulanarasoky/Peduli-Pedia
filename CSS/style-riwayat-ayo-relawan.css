@@ -1,0 +1,101 @@
+* {
+	margin :0;
+	padding: 0;
+	font-family: sans-serif;
+}
+html {
+	scroll-behavior: smooth;
+}
+.background {
+	background: rgb(228, 228, 228);
+	width: 90%;
+    margin: 10% 5% 5% 5%;
+    padding: 40px 0 70px 0;
+    height: auto;
+    display: block;
+}
+
+.background .frame {
+	border:1px solid #e52425;
+	border-radius: 10px;
+	margin: 2% 5.5% 0 5.5%;
+	width: 85%;
+	padding: 2%;
+}
+
+.background .frame .back-title p#title {
+	color: white;
+	font-size: 16pt;
+}
+.background .frame .back-titlee p#titlee {
+    color: #e52425;
+    font-size: 16pt;
+    margin-left: -26.5%;
+}
+
+.background .frame .red-background#ongoing {
+    background-color: #e52425;
+	margin: 0% 0% 0% 4%;
+	width: 91.5%;
+	height: auto;
+	border-radius: 0 0 10px 10px;
+	padding-top: 2%;
+    color: white;
+    padding: 2%;
+}
+.background .frame .red-background#riwayat {
+    background-color: #e52425;
+	margin: 0% 0% 0% 4%;
+	width: 91.5%;
+	height: auto;
+	border-radius: 0 0 10px 10px;
+	padding-top: 2%;
+    color: white;
+    padding: 2%;
+    display: none;
+}
+.background .frame .sedang-berlangsung {
+	background-color: #e52425;
+	border-radius: 5px 5px 0 0;
+	margin-left: 4%;
+    width: 20%;
+    color: white;
+    font-size: 14pt;
+    padding: 1% 4%; 
+    text-align: center;
+    cursor: pointer;
+}
+.background .frame .riwayat-relawan {
+    border-radius: 5px 5px 0 0;
+    margin-top: -4.5%;
+    margin-left: 71.5%;
+    text-align: center;
+    width: 20%;
+    color:#e52425;
+    font-size: 14pt;
+    padding: 1% 4%; 
+    cursor: pointer;
+}
+.background .frame .red-background h1 {
+    text-align: center;
+}
+.background .frame .red-background .ongoing {
+    border:1px solid;
+    margin-top: 2%;
+    padding: 2%;
+}
+.background .frame .red-background .ongoing img {
+    width: 25%;
+}
+.background .frame .red-background .ongoing p#nama-bencana {
+    position: absolute;
+    margin-top: -8%;
+    margin-left: 18%;
+    font-size: 14pt;
+}
+.background .frame .red-background .ongoing p#waktu {
+    position: absolute;
+    margin-top: -4%;
+    margin-left: 18%;
+    font-size: 14pt;
+}

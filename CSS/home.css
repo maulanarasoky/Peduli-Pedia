@@ -1,0 +1,506 @@
+* {
+	margin:0;
+	padding: 0;
+	font-family: sans-serif;
+}
+html {
+	scroll-behavior: smooth;
+}
+::-webkit-scrollbar {
+	width: 10px;
+  }
+  /* Track */
+::-webkit-scrollbar-track {
+	background: #f1f1f1; 
+}
+  /* Handle */
+::-webkit-scrollbar-thumb {
+	background: #03a9f4; 
+}
+  /* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+	background: #fff;
+	cursor: pointer;
+	border:1px solid #03a9f4; 
+}
+::-webkit-scrollbar-button {
+	  background: #03a9f4;
+}
+.picture {
+	margin-left: 5%;
+	margin-top: 5%;
+}
+.picture img {
+	width: 96%;
+	height: 350px;
+}
+/* .grade {
+	border:1px solid #e52425;
+	border-radius: 10px;
+	margin-left: 5%;
+	margin-top: 5%;
+	width: 91%;
+}
+.grade p#title {
+	text-align: center;
+	color: #e52425;
+	margin-top: 2%;
+	font-size: 16pt;
+}
+.grade .title p {
+	font-size: 16pt;
+	color: #e52425;
+}
+.grade .title {
+	margin-top: 5%;
+}
+.grade .title p#week {
+	float: left;
+	margin-left: 23%;
+	margin-right: 35%;
+	color: blue;
+	cursor: pointer;
+}
+.grade .title p#month {
+	margin-left: 70%;
+	width: 7.5%;
+	cursor:pointer;
+}
+.grade .title .garis#week {
+	float: left;
+	margin-top: 3%;
+	margin-left: 7%;
+	background-color: blue;
+	border:1px solid blue;
+}
+.grade .title .garis#month {
+	margin-top:3%;
+	margin-left: 50%;
+}
+.grade .title .garis {
+	border:1px solid #e52425;
+	background-color: #e52425;
+	margin-top: 1.5%;
+	margin-left: 2%;
+	margin-right: 50%;
+	width: 43%;
+}
+
+.grade {
+	height: 950px;
+}
+.grade .winner {
+	margin-top: 5%;
+}
+.grade .winner#week {
+	display: block;
+}
+.grade .winner#month {
+	display: none;
+}
+.grade .winner .first {
+	margin-left: 7%;
+	margin-top: 20%;
+	width: 20%;
+	height: 200px;
+}
+.grade .winner .second {
+	width: 20%;
+	height: 200px;
+	margin-top: -33%;
+	margin-left: 39%;
+}
+.grade .winner .third {
+	width: 20%;
+	height: 200px;
+	margin-top: -2%;
+	margin-left: 70%;
+}
+.grade .winner .first img {
+	width: 80%;
+	margin-left: 13%;
+}
+.grade .winner .second img {
+	width: 80%;
+	margin-left: 13%;
+}
+.grade .winner .third img {
+	width: 80%;
+	margin-left: 13%;
+}
+.grade .winner .first p, .second p, .third p {
+	font-size: 16pt;
+	text-align: center;
+}
+.grade .my-grade {
+	margin-top: 10%;
+}
+.grade .my-grade#week {
+	display: block;
+}
+.grade .my-grade#month {
+	display: none;
+}
+.grade .my-grade .pic img {
+	width: 15%;
+	margin-left: 10%;
+}
+.grade .my-grade .description {
+	line-height: 130%;
+	margin-top: -13%;
+	margin-left: 30%;
+	font-size: 26pt;
+}
+.grade .my-grade .description p#point {
+	font-size: 14pt;
+} */
+.menu {
+	background: #e52425;
+	padding: 1%;
+	width: 13%;
+	display: none;
+	position: fixed;
+	margin-left: 85%;
+	border-radius: 0 0 10px 10px;
+	z-index:1;
+	margin-top: 10.5%;
+}
+.menu .profilku {
+	margin-bottom: 10%;
+	text-align: center;
+	padding-bottom: 2%;
+	color:white;
+	border-bottom: 1px solid #fff;
+}
+.menu .list-donasi {
+	margin-bottom: 10%;
+	text-align: center;
+	padding-bottom: 2%;
+	color:white;
+	border-bottom: 1px solid #fff;
+}
+.menu .keluar {
+	color:white;
+	text-align: center;
+}
+.menu a {
+	text-decoration: none;
+	color: white;
+}
+.navbar-logo {
+	position: fixed;
+	margin-top: 0%;
+	z-index: 1;
+	box-shadow: 10px 0 2px 0;
+	background: #fff;
+	width: 100%;
+}
+.navbar-logo .logo {
+	width: 15%;
+	height: 85px;
+	margin-left: 2.5%;
+}
+.navbar-logo .logo a#home img {
+	width: 80%;
+	margin-top: 3%;
+}
+.navbar-logo .user {
+	float: right;
+	margin-top: -6%;
+	height: 12%;
+	margin-left: 79%;
+}
+.navbar-logo .user a#user img {
+	margin-top: 1%;
+	width: 25%;
+	/* float: right; */
+}
+.navbar-logo .user a#user p#user {
+	margin-right: 30%;
+	float: right;
+	color: #e52425;
+	font-size: 14pt;
+	margin-top: 9%;
+}
+.navbar-menu {
+	margin-top: 6.7%;
+	background-color: #e52425;
+	box-shadow: 0px 0px 1px 0px;
+	width: 100%;
+	height: 50px;
+	top: 0;
+	position: fixed;
+	z-index: 1;
+}
+.navbar-menu ul {
+	list-style: none;
+	padding-left: 20px;
+}
+.navbar-menu ul li {
+	display: inline-block;
+	margin-top: 1%;
+	margin-right: 2%;
+	margin-left: 2.5%;
+}
+.navbar-menu ul li a {
+	text-decoration: none;
+	color: white;
+	font-size: 130%;
+}
+.navbar-menu ul li a:hover {
+	color : orange;
+}
+.navbar-menu ul#welcome li#profile {
+	float: right;
+	margin-right: 6%;
+}
+.navbar-menu ul#welcome li#profile button {
+	font-size: 130%;
+	outline: none;
+	cursor: pointer;
+	color:white;
+	background: transparent;
+	border:none;
+}
+.best#donatur {
+	padding-top: 10%;
+}
+#myBtn {
+	z-index: 2;
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: red;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
+img#grade {
+	width: 2.5%;
+	margin-top: -.3%;
+	position: absolute;
+}
+.mySlides {
+	display: none;
+	margin-top: 14%;
+}
+
+/* Slideshow container */
+.slideshow-container {
+	padding-top: 80px;
+ 	max-width: 1000px;
+  	position: relative;
+  	
+}
+.slideshow-container .fade img {
+	width: 127%;
+	margin-top: -8.5%;
+	height: 485px;
+	vertical-align: middle;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+/*.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbeeeb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}*/
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 20s;
+  animation-name: fade;
+  animation-duration: 20s;
+}
+.titik {
+	text-align: center;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .9} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .9} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+.best {
+	border :5px solid #e52425;
+	border-radius: 20px;
+	height: 480px;
+	margin-top: 1.5%;
+	margin-left: 1%;
+	width: 97%;
+	padding: 2% 0;
+}
+.grade {
+	margin-top: 3%;
+	margin-left: 5%;
+	width: 20%;
+	height: auto;
+}
+img#grade {
+	width: 2.5%;
+	margin-top: -.3%;
+	position: absolute;
+}
+.grade button {
+	background-color: #e52425;
+	border:1px solid #e52425;
+	box-shadow: .5px .5px .5px .5px;
+	margin-left: 10%;
+	width: 50%;
+	height: 10%;
+	display: block;
+	margin-top: 20%;
+	color: white;
+	border-radius: 30px;
+	width: 250px;
+	height: 60px;
+	font-weight: bold;
+	font-size: 14pt;
+	outline: none;
+	cursor: pointer;
+}
+.grade button#donatur {
+	margin-top: 50%;
+}
+.grade button:hover {
+	background-color: white;
+	border:1px solid #e52425;
+	color: #e52425;
+}
+.grade-donatur {
+	margin-top: -32.3%;
+	margin-left: 35%;
+	width: 60%;
+	background-color: #e52425;
+	border-radius: 15px;
+	padding: 2%;
+}
+.grade-donatur table {
+	width: 100%;
+	height: 425px;
+}
+.grade-donatur table {
+	border-color: white;
+	padding: 10px;
+}
+.grade-donatur table tr td {
+	padding: 1.3%;
+	font-size: 14pt;
+	letter-spacing: 2px;
+	color: white;
+}
+.best table, tr, td {
+	border:1px solid white;
+	border-collapse: collapse;
+}
+.grade-donatur table tr td#donatur {
+	text-align: center;
+	font-size: 18pt;
+}
+.grade button.active {
+	background-color: white;
+	border:1px solid #e52425;
+	color: #e52425;
+}
+.grade-relawan {
+	margin-top: -32.3%;
+	margin-left: 35%;
+	width: 60%;
+	background-color: #e52425;
+	border-radius: 15px;
+	padding: 2%;
+	display: none;
+}
+.grade-relawan table {
+	width: 100%;
+	height: 425px;
+}
+.grade-relawan table {
+	border-color: white;
+	padding: 10px;
+}
+.grade-relawan table tr td {
+	padding: 1.3%;
+	font-size: 14pt;
+	letter-spacing: 2px;
+	color: white;
+}
+.grade-relawan table tr td#relawan {
+	text-align: center;
+	font-size: 18pt;
+}
+.grade-kurir {
+	margin-top: -32.3%;
+	margin-left: 35%;
+	width: 60%;
+	background-color: #e52425;
+	border-radius: 15px;
+	padding: 2%;
+	display: none;
+}
+.grade-kurir table {
+	width: 100%;
+	height: 425px;
+}
+.grade-kurir table {
+	border-color: white;
+	padding: 10px;
+}
+.grade-kurir table tr td {
+	padding: 1.3%;
+	font-size: 14pt;
+	letter-spacing: 2px;
+	color: white;
+}
+.grade-kurir table tr td#kurir {
+	text-align: center;
+	font-size: 18pt;
+}

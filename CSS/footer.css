@@ -1,0 +1,50 @@
+.footer {
+	margin-top: 0%;
+	background-color: #d9d9d9;
+	height: 230px;
+}
+
+.footer .information .logo img {
+	width: 15%;
+	height: 15%;
+	margin-top: 6.5%;
+	margin-left: 3%;
+	position: absolute;
+}
+
+.footer .information .info {
+	margin-top: 2%;
+	margin-left: 21%;
+	line-height: 180%;
+	position: absolute;
+}
+
+.footer .information .social {
+	margin-top: 2%;
+	margin-left: 75%;
+	position: absolute;
+}
+.footer .information .social h2 {
+	margin-left: 9%;
+	margin-bottom: 3%;
+}
+.footer .information .social a img {
+	width: 13%;
+	height: 13%;
+	margin-left: 4%;
+	margin-bottom: 2%;
+}
+.footer .garis {
+	width: 99.8%;
+	height: 1%;
+	margin-top: 10%;
+	background-color: #e52425;
+	border:1px solid #e52425;
+	position: absolute;
+}
+.footer .copyright {
+	margin-top: 11.5%;
+	margin-left: 75%;
+	font-weight: bold;
+	position: absolute;
+}
